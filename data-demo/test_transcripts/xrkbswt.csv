@@ -1,0 +1,241 @@
+session_id,utterance_id,role,content,timestamp
+xrkbswt,0,background,[unclear],00:00:00
+xrkbswt,1,tutor,Good day. How are you feeling?,00:00:08
+xrkbswt,2,student,"I am okay, thank you.",00:00:16
+xrkbswt,3,tutor,Let us get started. Today we are going to look at showing and partitioning numbers up to ten thousand. Do you know what partitioning means?,00:00:24
+xrkbswt,4,student,Breaking a number into parts?,00:00:32
+xrkbswt,5,tutor,"That is exactly right. We split a number into its thousands, hundreds, tens and ones. Let us start. What is the value of the digit 3 in the number 3,724?",00:00:40
+xrkbswt,6,student,"3,000.",00:00:48
+xrkbswt,7,tutor,Correct. And the value of the 7?,00:00:56
+xrkbswt,8,student,700.,00:01:04
+xrkbswt,9,tutor,And the 2?,00:01:12
+xrkbswt,10,student,20.,00:01:20
+xrkbswt,11,tutor,And the 4?,00:01:28
+xrkbswt,12,student,4.,00:01:36
+xrkbswt,13,tutor,"Well done. So if we partition 3,724 into thousands, hundreds, tens and ones, we get?",00:01:44
+xrkbswt,14,student,"3,000 plus 700 plus 20 plus 4.",00:01:52
+xrkbswt,15,tutor,"Excellent. Now let us try 5,308. What is the value of the 0 in the tens column?",00:02:00
+xrkbswt,16,student,0. It means there are no tens.,00:02:08
+xrkbswt,17,tutor,"Exactly right. And the partition of 5,308?",00:02:16
+xrkbswt,18,student,"5,000 plus 300 plus 0 plus 8.",00:02:24
+xrkbswt,19,tutor,"Very good. We do not need to write the zero, so it is just 5,000 plus 300 plus 8. Now let us think about this the other way. I am going to give you a partition and you tell me the number. 2,000 plus 600 plus 40 plus 9.",00:02:32
+xrkbswt,20,student,"2,649.",00:02:40
+xrkbswt,21,tutor,"Correct. And 7,000 plus 80 plus 3?",00:02:48
+xrkbswt,22,student,"7,083.",00:02:56
+xrkbswt,23,tutor,"Very good. You remembered to put the 0 in the hundreds column. Now let us look at representing numbers on a number line. If I have a number line from 0 to 10,000, where would 6,000 go?",00:03:04
+xrkbswt,24,student,"In the middle would be 5,000, so 6,000 is a bit further along.",00:03:12
+xrkbswt,25,tutor,"Good. Now what about 6,500?",00:03:20
+xrkbswt,26,student,"Halfway between 6,000 and 7,000.",00:03:28
+xrkbswt,27,tutor,"Excellent. Let us now look at comparing numbers. Which is larger, 4,385 or 4,538?",00:03:36
+xrkbswt,28,student,"Um... 4,538 because the hundreds digit is bigger. 5 is bigger than 3.",00:03:44
+xrkbswt,29,tutor,"Correct. When the thousands are the same, we compare the hundreds. What about 7,264 and 7,246?",00:03:52
+xrkbswt,30,student,"7,264 because in the tens column, 6 is bigger than 4.",00:04:00
+xrkbswt,31,tutor,"Well done. Now let us look at rounding. What is 4,367 rounded to the nearest thousand?",00:04:08
+xrkbswt,32,student,"4,000 because 3 in the hundreds column means we round down.",00:04:16
+xrkbswt,33,tutor,"Correct. And 4,785 rounded to the nearest thousand?",00:04:24
+xrkbswt,34,student,"5,000 because 7 in the hundreds means we round up.",00:04:32
+xrkbswt,35,tutor,"Well done. What about 4,500 rounded to the nearest thousand?",00:04:40
+xrkbswt,36,student,"[unclear] Um... 5,000? Because 5 rounds up.",00:04:48
+xrkbswt,37,tutor,"That is correct. We always round up when the digit is exactly 5. Now let us round to the nearest hundred. What is 3,472 rounded to the nearest hundred?",00:04:56
+xrkbswt,38,student,"3,500 because 7 in the tens column means we round up.",00:05:04
+xrkbswt,39,tutor,"And 6,830 to the nearest hundred?",00:05:12
+xrkbswt,40,student,"6,800 because 3 in the tens column means we round down.",00:05:20
+xrkbswt,41,tutor,"Excellent. Let us now look at some different ways to show numbers. Can you show 2,345 in words?",00:05:28
+xrkbswt,42,student,"Two thousand, three hundred and forty-five.",00:05:36
+xrkbswt,43,tutor,"Well done. And 9,007?",00:05:44
+xrkbswt,44,student,Nine thousand and seven.,00:05:52
+xrkbswt,45,tutor,"Good. Now let us look at this in another way. I want you to think about 10 more or 100 more or 1,000 more than a given number. What is 1,000 more than 3,456?",00:06:00
+xrkbswt,46,student,"4,456.",00:06:08
+xrkbswt,47,tutor,"And 100 less than 8,923?",00:06:16
+xrkbswt,48,student,"8,823.",00:06:24
+xrkbswt,49,tutor,"And 10 more than 5,994?",00:06:32
+xrkbswt,50,student,"6,004.",00:06:40
+xrkbswt,51,tutor,"Be careful there. Let me check. 5,994 plus 10. The tens digit is 9. What happens?",00:06:48
+xrkbswt,52,student,"Oh, it becomes 6,004 because the tens go to 10 which carries over to hundreds and hundreds go to 10 which carries to thousands.",00:06:56
+xrkbswt,53,tutor,"Exactly right. Let me give you a challenge. What is 100 more than 9,957?",00:07:04
+xrkbswt,54,student,"[unclear] 9,957 plus 100. The hundreds digit is 9, so that goes to 10, which carries to thousands. 9 plus 1 is 10, so that also carries. So it is 10,057.",00:07:12
+xrkbswt,55,tutor,"Correct. You have just gone above 10,000. Let us now try some partitioning in different ways. 4,652 can be partitioned as 4,000 plus 652. But it can also be partitioned differently. Can you think of another way?",00:07:20
+xrkbswt,56,student,"Um, 4,600 plus 52?",00:07:28
+xrkbswt,57,tutor,Good. Another way?,00:07:36
+xrkbswt,58,student,"4,650 plus 2.",00:07:44
+xrkbswt,59,tutor,"Excellent. All of these are valid partitions. This is very useful when we add and subtract. For example, to add 3,400 to 4,652, I could add 3,000 first, then 400.",00:07:52
+xrkbswt,60,student,"So 4,652 plus 3,000 is 7,652, and then plus 400 is 8,052.",00:08:00
+xrkbswt,61,tutor,"Well done. Let us now look at some visual representations. If I show a number using thousands blocks, hundreds squares, ten rods, and ones cubes, and I have 5 thousands blocks, 3 hundreds squares, 0 ten rods, and 6 ones cubes, what number is that?",00:08:08
+xrkbswt,62,student,"5,306.",00:08:16
+xrkbswt,63,tutor,"Correct. And if I have 2 thousands, 8 hundreds, 7 tens, and 4 ones?",00:08:24
+xrkbswt,64,student,"2,874.",00:08:32
+xrkbswt,65,tutor,"Let me give you a tricky question. What if I have 12 hundreds, 4 tens and 8 ones? What number is that?",00:08:40
+xrkbswt,66,student,"[unclear] 12 hundreds is the same as 1,200. So the number is 1,248.",00:08:48
+xrkbswt,67,tutor,Excellent reasoning. What about 3 thousands and 25 tens?,00:08:56
+xrkbswt,68,student,"25 tens is 250. So the number is 3,250.",00:09:04
+xrkbswt,69,tutor,Very well done. Let us now look at some problems about place value and partitioning that you might see in a test. Can you read this question?,00:09:12
+xrkbswt,70,student,"Write the number shown by the arrow on the number line. The number line goes from 4,000 to 5,000 and the arrow is three-quarters of the way along.",00:09:20
+xrkbswt,71,tutor,Good. So how would you work that out?,00:09:28
+xrkbswt,72,student,"The total range is 1,000. Three quarters of 1,000 is 750. So the number is 4,750.",00:09:36
+xrkbswt,73,tutor,"Excellent. And here is the last challenge. A number has 4 thousands, 6 tens, and 3 ones. What is the number?",00:09:44
+xrkbswt,74,student,"4,063.",00:09:52
+xrkbswt,75,tutor,Correct. And what is that number rounded to the nearest ten?,00:10:00
+xrkbswt,76,student,"4,060 because 3 rounds down.",00:10:08
+xrkbswt,77,tutor,And to the nearest hundred?,00:10:16
+xrkbswt,78,student,"4,100 because 6 in the tens column rounds up.",00:10:24
+xrkbswt,79,tutor,Very good. You have done excellent work today. Can you give me a summary of what partitioning means?,00:10:32
+xrkbswt,80,student,"It means splitting a number into its thousands, hundreds, tens and ones parts using place value.",00:10:40
+xrkbswt,81,tutor,Perfect. See you next time.,00:10:48
+xrkbswt,82,student,Thank you. Goodbye.,00:10:56
+xrkbswt,83,tutor,Good day. How are you feeling?,00:11:04
+xrkbswt,84,student,"I am okay, thank you.",00:11:12
+xrkbswt,85,tutor,Let us get started. Today we are going to look at showing and partitioning numbers up to ten thousand. Do you know what partitioning means?,00:11:20
+xrkbswt,86,student,Breaking a number into parts?,00:11:28
+xrkbswt,87,tutor,"That is exactly right. We split a number into its thousands, hundreds, tens and ones. Let us start. What is the value of the digit 3 in the number 3,724?",00:11:36
+xrkbswt,88,student,"3,000.",00:11:44
+xrkbswt,89,tutor,Correct. And the value of the 7?,00:11:52
+xrkbswt,90,student,700.,00:12:00
+xrkbswt,91,tutor,And the 2?,00:12:08
+xrkbswt,92,student,20.,00:12:16
+xrkbswt,93,tutor,And the 4?,00:12:24
+xrkbswt,94,student,4.,00:12:32
+xrkbswt,95,tutor,"Well done. So if we partition 3,724 into thousands, hundreds, tens and ones, we get?",00:12:40
+xrkbswt,96,student,"3,000 plus 700 plus 20 plus 4.",00:12:48
+xrkbswt,97,tutor,"Excellent. Now let us try 5,308. What is the value of the 0 in the tens column?",00:12:56
+xrkbswt,98,student,0. It means there are no tens.,00:13:04
+xrkbswt,99,tutor,"Exactly right. And the partition of 5,308?",00:13:12
+xrkbswt,100,student,"5,000 plus 300 plus 0 plus 8.",00:13:20
+xrkbswt,101,tutor,"Very good. We do not need to write the zero, so it is just 5,000 plus 300 plus 8. Now let us think about this the other way. I am going to give you a partition and you tell me the number. 2,000 plus 600 plus 40 plus 9.",00:13:28
+xrkbswt,102,student,"2,649.",00:13:36
+xrkbswt,103,tutor,"Correct. And 7,000 plus 80 plus 3?",00:13:44
+xrkbswt,104,student,"7,083.",00:13:52
+xrkbswt,105,tutor,"Very good. You remembered to put the 0 in the hundreds column. Now let us look at representing numbers on a number line. If I have a number line from 0 to 10,000, where would 6,000 go?",00:14:00
+xrkbswt,106,student,"In the middle would be 5,000, so 6,000 is a bit further along.",00:14:08
+xrkbswt,107,tutor,"Good. Now what about 6,500?",00:14:16
+xrkbswt,108,student,"Halfway between 6,000 and 7,000.",00:14:24
+xrkbswt,109,tutor,"Excellent. Let us now look at comparing numbers. Which is larger, 4,385 or 4,538?",00:14:32
+xrkbswt,110,student,"Um... 4,538 because the hundreds digit is bigger. 5 is bigger than 3.",00:14:40
+xrkbswt,111,tutor,"Correct. When the thousands are the same, we compare the hundreds. What about 7,264 and 7,246?",00:14:48
+xrkbswt,112,student,"7,264 because in the tens column, 6 is bigger than 4.",00:14:56
+xrkbswt,113,tutor,"Well done. Now let us look at rounding. What is 4,367 rounded to the nearest thousand?",00:15:04
+xrkbswt,114,student,"4,000 because 3 in the hundreds column means we round down.",00:15:12
+xrkbswt,115,tutor,"Correct. And 4,785 rounded to the nearest thousand?",00:15:20
+xrkbswt,116,student,"5,000 because 7 in the hundreds means we round up.",00:15:28
+xrkbswt,117,tutor,"Well done. What about 4,500 rounded to the nearest thousand?",00:15:36
+xrkbswt,118,student,"[unclear] Um... 5,000? Because 5 rounds up.",00:15:44
+xrkbswt,119,tutor,"That is correct. We always round up when the digit is exactly 5. Now let us round to the nearest hundred. What is 3,472 rounded to the nearest hundred?",00:15:52
+xrkbswt,120,student,"3,500 because 7 in the tens column means we round up.",00:16:00
+xrkbswt,121,tutor,"And 6,830 to the nearest hundred?",00:16:08
+xrkbswt,122,student,"6,800 because 3 in the tens column means we round down.",00:16:16
+xrkbswt,123,tutor,"Excellent. Let us now look at some different ways to show numbers. Can you show 2,345 in words?",00:16:24
+xrkbswt,124,student,"Two thousand, three hundred and forty-five.",00:16:32
+xrkbswt,125,tutor,"Well done. And 9,007?",00:16:40
+xrkbswt,126,student,Nine thousand and seven.,00:16:48
+xrkbswt,127,tutor,"Good. Now let us look at this in another way. I want you to think about 10 more or 100 more or 1,000 more than a given number. What is 1,000 more than 3,456?",00:16:56
+xrkbswt,128,student,"4,456.",00:17:04
+xrkbswt,129,tutor,"And 100 less than 8,923?",00:17:12
+xrkbswt,130,student,"8,823.",00:17:20
+xrkbswt,131,tutor,"And 10 more than 5,994?",00:17:28
+xrkbswt,132,student,"6,004.",00:17:36
+xrkbswt,133,tutor,"Be careful there. Let me check. 5,994 plus 10. The tens digit is 9. What happens?",00:17:44
+xrkbswt,134,student,"Oh, it becomes 6,004 because the tens go to 10 which carries over to hundreds and hundreds go to 10 which carries to thousands.",00:17:52
+xrkbswt,135,tutor,"Exactly right. Let me give you a challenge. What is 100 more than 9,957?",00:18:00
+xrkbswt,136,student,"[unclear] 9,957 plus 100. The hundreds digit is 9, so that goes to 10, which carries to thousands. 9 plus 1 is 10, so that also carries. So it is 10,057.",00:18:08
+xrkbswt,137,tutor,"Correct. You have just gone above 10,000. Let us now try some partitioning in different ways. 4,652 can be partitioned as 4,000 plus 652. But it can also be partitioned differently. Can you think of another way?",00:18:16
+xrkbswt,138,student,"Um, 4,600 plus 52?",00:18:24
+xrkbswt,139,tutor,Good. Another way?,00:18:32
+xrkbswt,140,student,"4,650 plus 2.",00:18:40
+xrkbswt,141,tutor,"Excellent. All of these are valid partitions. This is very useful when we add and subtract. For example, to add 3,400 to 4,652, I could add 3,000 first, then 400.",00:18:48
+xrkbswt,142,student,"So 4,652 plus 3,000 is 7,652, and then plus 400 is 8,052.",00:18:56
+xrkbswt,143,tutor,"Well done. Let us now look at some visual representations. If I show a number using thousands blocks, hundreds squares, ten rods, and ones cubes, and I have 5 thousands blocks, 3 hundreds squares, 0 ten rods, and 6 ones cubes, what number is that?",00:19:04
+xrkbswt,144,student,"5,306.",00:19:12
+xrkbswt,145,tutor,"Correct. And if I have 2 thousands, 8 hundreds, 7 tens, and 4 ones?",00:19:20
+xrkbswt,146,student,"2,874.",00:19:28
+xrkbswt,147,tutor,"Let me give you a tricky question. What if I have 12 hundreds, 4 tens and 8 ones? What number is that?",00:19:36
+xrkbswt,148,student,"[unclear] 12 hundreds is the same as 1,200. So the number is 1,248.",00:19:44
+xrkbswt,149,tutor,Excellent reasoning. What about 3 thousands and 25 tens?,00:19:52
+xrkbswt,150,student,"25 tens is 250. So the number is 3,250.",00:20:00
+xrkbswt,151,tutor,Very well done. Let us now look at some problems about place value and partitioning that you might see in a test. Can you read this question?,00:20:08
+xrkbswt,152,student,"Write the number shown by the arrow on the number line. The number line goes from 4,000 to 5,000 and the arrow is three-quarters of the way along.",00:20:16
+xrkbswt,153,tutor,Good. So how would you work that out?,00:20:24
+xrkbswt,154,student,"The total range is 1,000. Three quarters of 1,000 is 750. So the number is 4,750.",00:20:32
+xrkbswt,155,tutor,"Excellent. And here is the last challenge. A number has 4 thousands, 6 tens, and 3 ones. What is the number?",00:20:40
+xrkbswt,156,student,"4,063.",00:20:48
+xrkbswt,157,tutor,Correct. And what is that number rounded to the nearest ten?,00:20:56
+xrkbswt,158,student,"4,060 because 3 rounds down.",00:21:04
+xrkbswt,159,tutor,And to the nearest hundred?,00:21:12
+xrkbswt,160,student,"4,100 because 6 in the tens column rounds up.",00:21:20
+xrkbswt,161,tutor,Very good. You have done excellent work today. Can you give me a summary of what partitioning means?,00:21:28
+xrkbswt,162,student,"It means splitting a number into its thousands, hundreds, tens and ones parts using place value.",00:21:36
+xrkbswt,163,tutor,Perfect. See you next time.,00:21:44
+xrkbswt,164,student,Thank you. Goodbye.,00:21:52
+xrkbswt,165,tutor,Good day. How are you feeling?,00:22:00
+xrkbswt,166,student,"I am okay, thank you.",00:22:08
+xrkbswt,167,tutor,Let us get started. Today we are going to look at showing and partitioning numbers up to ten thousand. Do you know what partitioning means?,00:22:16
+xrkbswt,168,student,Breaking a number into parts?,00:22:24
+xrkbswt,169,tutor,"That is exactly right. We split a number into its thousands, hundreds, tens and ones. Let us start. What is the value of the digit 3 in the number 3,724?",00:22:32
+xrkbswt,170,student,"3,000.",00:22:40
+xrkbswt,171,tutor,Correct. And the value of the 7?,00:22:48
+xrkbswt,172,student,700.,00:22:56
+xrkbswt,173,tutor,And the 2?,00:23:04
+xrkbswt,174,student,20.,00:23:12
+xrkbswt,175,tutor,And the 4?,00:23:20
+xrkbswt,176,student,4.,00:23:28
+xrkbswt,177,tutor,"Well done. So if we partition 3,724 into thousands, hundreds, tens and ones, we get?",00:23:36
+xrkbswt,178,student,"3,000 plus 700 plus 20 plus 4.",00:23:44
+xrkbswt,179,tutor,"Excellent. Now let us try 5,308. What is the value of the 0 in the tens column?",00:23:52
+xrkbswt,180,student,0. It means there are no tens.,00:24:00
+xrkbswt,181,tutor,"Exactly right. And the partition of 5,308?",00:24:08
+xrkbswt,182,student,"5,000 plus 300 plus 0 plus 8.",00:24:16
+xrkbswt,183,tutor,"Very good. We do not need to write the zero, so it is just 5,000 plus 300 plus 8. Now let us think about this the other way. I am going to give you a partition and you tell me the number. 2,000 plus 600 plus 40 plus 9.",00:24:24
+xrkbswt,184,student,"2,649.",00:24:32
+xrkbswt,185,tutor,"Correct. And 7,000 plus 80 plus 3?",00:24:40
+xrkbswt,186,student,"7,083.",00:24:48
+xrkbswt,187,tutor,"Very good. You remembered to put the 0 in the hundreds column. Now let us look at representing numbers on a number line. If I have a number line from 0 to 10,000, where would 6,000 go?",00:24:56
+xrkbswt,188,student,"In the middle would be 5,000, so 6,000 is a bit further along.",00:25:04
+xrkbswt,189,tutor,"Good. Now what about 6,500?",00:25:12
+xrkbswt,190,student,"Halfway between 6,000 and 7,000.",00:25:20
+xrkbswt,191,tutor,"Excellent. Let us now look at comparing numbers. Which is larger, 4,385 or 4,538?",00:25:28
+xrkbswt,192,student,"Um... 4,538 because the hundreds digit is bigger. 5 is bigger than 3.",00:25:36
+xrkbswt,193,tutor,"Correct. When the thousands are the same, we compare the hundreds. What about 7,264 and 7,246?",00:25:44
+xrkbswt,194,student,"7,264 because in the tens column, 6 is bigger than 4.",00:25:52
+xrkbswt,195,tutor,"Well done. Now let us look at rounding. What is 4,367 rounded to the nearest thousand?",00:26:00
+xrkbswt,196,student,"4,000 because 3 in the hundreds column means we round down.",00:26:08
+xrkbswt,197,tutor,"Correct. And 4,785 rounded to the nearest thousand?",00:26:16
+xrkbswt,198,student,"5,000 because 7 in the hundreds means we round up.",00:26:24
+xrkbswt,199,tutor,"Well done. What about 4,500 rounded to the nearest thousand?",00:26:32
+xrkbswt,200,student,"[unclear] Um... 5,000? Because 5 rounds up.",00:26:40
+xrkbswt,201,tutor,"That is correct. We always round up when the digit is exactly 5. Now let us round to the nearest hundred. What is 3,472 rounded to the nearest hundred?",00:26:48
+xrkbswt,202,student,"3,500 because 7 in the tens column means we round up.",00:26:56
+xrkbswt,203,tutor,"And 6,830 to the nearest hundred?",00:27:04
+xrkbswt,204,student,"6,800 because 3 in the tens column means we round down.",00:27:12
+xrkbswt,205,tutor,"Excellent. Let us now look at some different ways to show numbers. Can you show 2,345 in words?",00:27:20
+xrkbswt,206,student,"Two thousand, three hundred and forty-five.",00:27:28
+xrkbswt,207,tutor,"Well done. And 9,007?",00:27:36
+xrkbswt,208,student,Nine thousand and seven.,00:27:44
+xrkbswt,209,tutor,"Good. Now let us look at this in another way. I want you to think about 10 more or 100 more or 1,000 more than a given number. What is 1,000 more than 3,456?",00:27:52
+xrkbswt,210,student,"4,456.",00:28:00
+xrkbswt,211,tutor,"And 100 less than 8,923?",00:28:08
+xrkbswt,212,student,"8,823.",00:28:16
+xrkbswt,213,tutor,"And 10 more than 5,994?",00:28:24
+xrkbswt,214,student,"6,004.",00:28:32
+xrkbswt,215,tutor,"Be careful there. Let me check. 5,994 plus 10. The tens digit is 9. What happens?",00:28:40
+xrkbswt,216,student,"Oh, it becomes 6,004 because the tens go to 10 which carries over to hundreds and hundreds go to 10 which carries to thousands.",00:28:48
+xrkbswt,217,tutor,"Exactly right. Let me give you a challenge. What is 100 more than 9,957?",00:28:56
+xrkbswt,218,student,"[unclear] 9,957 plus 100. The hundreds digit is 9, so that goes to 10, which carries to thousands. 9 plus 1 is 10, so that also carries. So it is 10,057.",00:29:04
+xrkbswt,219,tutor,"Correct. You have just gone above 10,000. Let us now try some partitioning in different ways. 4,652 can be partitioned as 4,000 plus 652. But it can also be partitioned differently. Can you think of another way?",00:29:12
+xrkbswt,220,student,"Um, 4,600 plus 52?",00:29:20
+xrkbswt,221,tutor,Good. Another way?,00:29:28
+xrkbswt,222,student,"4,650 plus 2.",00:29:36
+xrkbswt,223,tutor,"Excellent. All of these are valid partitions. This is very useful when we add and subtract. For example, to add 3,400 to 4,652, I could add 3,000 first, then 400.",00:29:44
+xrkbswt,224,student,"So 4,652 plus 3,000 is 7,652, and then plus 400 is 8,052.",00:29:52
+xrkbswt,225,tutor,"Well done. Let us now look at some visual representations. If I show a number using thousands blocks, hundreds squares, ten rods, and ones cubes, and I have 5 thousands blocks, 3 hundreds squares, 0 ten rods, and 6 ones cubes, what number is that?",00:30:00
+xrkbswt,226,student,"5,306.",00:30:08
+xrkbswt,227,tutor,"Correct. And if I have 2 thousands, 8 hundreds, 7 tens, and 4 ones?",00:30:16
+xrkbswt,228,student,"2,874.",00:30:24
+xrkbswt,229,tutor,"Let me give you a tricky question. What if I have 12 hundreds, 4 tens and 8 ones? What number is that?",00:30:32
+xrkbswt,230,student,"[unclear] 12 hundreds is the same as 1,200. So the number is 1,248.",00:30:40
+xrkbswt,231,tutor,Excellent reasoning. What about 3 thousands and 25 tens?,00:30:48
+xrkbswt,232,student,"25 tens is 250. So the number is 3,250.",00:30:56
+xrkbswt,233,tutor,Very well done. Let us now look at some problems about place value and partitioning that you might see in a test. Can you read this question?,00:31:04
+xrkbswt,234,student,"Write the number shown by the arrow on the number line. The number line goes from 4,000 to 5,000 and the arrow is three-quarters of the way along.",00:31:12
+xrkbswt,235,tutor,Good. So how would you work that out?,00:31:20
+xrkbswt,236,student,"The total range is 1,000. Three quarters of 1,000 is 750. So the number is 4,750.",00:31:28
+xrkbswt,237,tutor,"Excellent. And here is the last challenge. A number has 4 thousands, 6 tens, and 3 ones. What is the number?",00:31:36
+xrkbswt,238,student,"4,063.",00:31:44
+xrkbswt,239,tutor,Correct. And what is that number rounded to the nearest ten?,00:31:52

@@ -1,0 +1,107 @@
+[project]
+name = "tutoring-outcomes-runtime"
+version = "0.0.0"
+description = "Runtime for the Tutoring Outcomes Prediction Challenge"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "accelerate",
+    "aiofiles",
+    "aiohttp",
+    "attrs",
+    "certifi",
+    "chromadb",
+    "click",
+    "cloudpickle",
+    "cupy-cuda12x",
+    "datasets==4.8.5",
+    "dill",
+    "diskcache",
+    "einops",
+    "fastapi",
+    "filelock",
+    "fsspec",
+    "gensim",
+    "grpcio",
+    "httpcore",
+    "httpx",
+    "huggingface-hub",
+    "importlib-metadata",
+    "jinja2",
+    "jsonpickle",
+    "langchain-community",
+    "langchain",
+    "lightgbm",
+    "loguru",
+    "more-itertools",
+    "ninja",
+    "numba",
+    "numpy",
+    "opencv-python",
+    "packaging",
+    "pandas",
+    "peft",
+    "pillow",
+    "polars",
+    "psutil",
+    "pydantic-settings",
+    "pydantic",
+    "pytorch-lightning",
+    "pyyaml",
+    "regex",
+    "requests",
+    "sacremoses",
+    "safetensors",
+    "scikit-learn",
+    "scipy",
+    "sentence-transformers",
+    "sentencepiece",
+    "spacy",
+    "starlette",
+    "statsmodels",
+    "thinc",
+    "tiktoken",
+    "timm",
+    "tokenizers",
+    "torch==2.11.0+cu129",
+    "torchaudio==2.11.0+cu129",
+    "torchvision==0.26.0+cu129",
+    "tqdm",
+    "transformers",
+    "urllib3",
+    "uvicorn",
+    "vllm",
+    "xarray",
+    "xformers",
+]
+
+[tool.uv]
+required-version = ">=0.11.14"
+exclude-newer = "7 days"
+environments = ["sys_platform == 'linux'"]
+no-build-package = ["vllm"]
+index-strategy = "unsafe-best-match"
+
+[[tool.uv.index]]
+name = "pytorch-cu129"
+url = "https://download.pytorch.org/whl/cu129"
+explicit = true
+
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu129", marker = "sys_platform == 'linux'"},
+]
+torchvision = [
+  { index = "pytorch-cu129", marker = "sys_platform == 'linux'"},
+]
+torchaudio = [
+  { index = "pytorch-cu129", marker = "sys_platform == 'linux'"},
+]
+vllm = [
+  { url = "https://wheels.vllm.ai/ad7125a431e176d4161099480a66f0169609a690/vllm-0.21.0%2Bcu129-cp38-abi3-manylinux_2_34_x86_64.whl", marker = "platform_machine == 'x86_64'" },
+  { url = "https://wheels.vllm.ai/ad7125a431e176d4161099480a66f0169609a690/vllm-0.21.0%2Bcu129-cp38-abi3-manylinux_2_34_aarch64.whl", marker = "platform_machine == 'aarch64'" },
+]
+
+[project.optional-dependencies]
+test = ["pytest>=9.0"]

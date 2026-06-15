@@ -1,0 +1,278 @@
+session_id,utterance_id,role,content,timestamp
+wdhnpkq,0,background,[unclear],00:00:00
+wdhnpkq,1,tutor,"Hello, good to see you. Are you ready for today?",00:00:08
+wdhnpkq,2,student,"Yes, I am ready.",00:00:16
+wdhnpkq,3,tutor,Brilliant. Today we are going to look at writing percentages as fractions and as decimals. Have you seen this before?,00:00:24
+wdhnpkq,4,student,A little bit at school.,00:00:32
+wdhnpkq,5,tutor,"Great. Let us start with what percent means. The word percent comes from per centum, which means out of one hundred. So 1 percent means 1 out of 100. How would you write that as a fraction?",00:00:40
+wdhnpkq,6,student,1 over 100?,00:00:48
+wdhnpkq,7,tutor,Exactly. And 50 percent?,00:00:56
+wdhnpkq,8,student,50 over 100.,00:01:04
+wdhnpkq,9,tutor,Good. And can that fraction be simplified?,00:01:12
+wdhnpkq,10,student,Um... to 1 over 2?,00:01:20
+wdhnpkq,11,tutor,That is right. 50 over 100 simplifies to 1 half. And we know that 1 half as a decimal is?,00:01:28
+wdhnpkq,12,student,0.5.,00:01:36
+wdhnpkq,13,tutor,"Excellent. So 50 percent, 1 half, and 0.5 are all the same value. Let us look at 25 percent. What is 25 percent as a fraction?",00:01:44
+wdhnpkq,14,student,25 over 100.,00:01:52
+wdhnpkq,15,tutor,And simplified?,00:02:00
+wdhnpkq,16,student,Um... 5 over 20? No... [unclear],00:02:08
+wdhnpkq,17,tutor,Let us think about it. What is the highest common factor of 25 and 100?,00:02:16
+wdhnpkq,18,student,25.,00:02:24
+wdhnpkq,19,tutor,So divide both by 25. What do you get?,00:02:32
+wdhnpkq,20,student,1 over 4.,00:02:40
+wdhnpkq,21,tutor,Correct. So 25 percent equals 1 quarter. And 1 quarter as a decimal?,00:02:48
+wdhnpkq,22,student,0.25.,00:02:56
+wdhnpkq,23,tutor,Well done. Now 75 percent. Can you work it out?,00:03:04
+wdhnpkq,24,student,75 over 100. Divide by 25 gives 3 over 4.,00:03:12
+wdhnpkq,25,tutor,And as a decimal?,00:03:20
+wdhnpkq,26,student,0.75.,00:03:28
+wdhnpkq,27,tutor,"Excellent. Let us now look at how to convert from fractions to percentages. If you have a fraction, you need to convert it to have a denominator of 100. How would you change 3 over 5 to a percentage?",00:03:36
+wdhnpkq,28,student,Um... I need to make 5 into 100. So I multiply by 20. Then the top becomes 60. So 60 percent?,00:03:44
+wdhnpkq,29,tutor,Perfect. And 7 over 10?,00:03:52
+wdhnpkq,30,student,Multiply top and bottom by 10. 70 over 100. So 70 percent.,00:04:00
+wdhnpkq,31,tutor,Excellent. What about 2 over 25?,00:04:08
+wdhnpkq,32,student,Multiply by 4. 8 over 100. So 8 percent.,00:04:16
+wdhnpkq,33,tutor,"Very good. Now let us look at converting percentages to decimals. The key idea is that percentages are out of 100, and decimals use place value based on 100 and 10. So to convert a percentage to a decimal, you divide by 100. What is 34 percent as a decimal?",00:04:24
+wdhnpkq,34,student,0.34.,00:04:32
+wdhnpkq,35,tutor,Good. And 7 percent?,00:04:40
+wdhnpkq,36,student,[unclear] Um... 0.7?,00:04:48
+wdhnpkq,37,tutor,"Careful. 7 percent means 7 out of 100. When you divide 7 by 100, where does the 7 go?",00:04:56
+wdhnpkq,38,student,"Oh, it goes into the hundredths column. So 0.07.",00:05:04
+wdhnpkq,39,tutor,"Exactly right. 7 percent is 0.07, not 0.7. 0.7 would be 70 percent. Let us practise a few more. What is 3 percent as a decimal?",00:05:12
+wdhnpkq,40,student,0.03.,00:05:20
+wdhnpkq,41,tutor,And 65 percent?,00:05:28
+wdhnpkq,42,student,0.65.,00:05:36
+wdhnpkq,43,tutor,And 100 percent?,00:05:44
+wdhnpkq,44,student,"1.0, which is just 1.",00:05:52
+wdhnpkq,45,tutor,"Correct. Now going the other way. If you have a decimal and you want to write it as a percentage, you multiply by 100. What is 0.45 as a percentage?",00:06:00
+wdhnpkq,46,student,45 percent.,00:06:08
+wdhnpkq,47,tutor,And 0.09?,00:06:16
+wdhnpkq,48,student,9 percent.,00:06:24
+wdhnpkq,49,tutor,And 1.25?,00:06:32
+wdhnpkq,50,student,125 percent.,00:06:40
+wdhnpkq,51,tutor,Well done. A percentage over 100 just means more than the whole. Now let us look at some real-life context. A shop says everything is 20 percent off. What fraction is that?,00:06:48
+wdhnpkq,52,student,"20 over 100, which simplifies to 1 over 5.",00:06:56
+wdhnpkq,53,tutor,"So if something costs 50 in a currency, how much is 1 fifth of 50?",00:07:04
+wdhnpkq,54,student,10.,00:07:12
+wdhnpkq,55,tutor,So the item is 10 off. What do you pay?,00:07:20
+wdhnpkq,56,student,40.,00:07:28
+wdhnpkq,57,tutor,"Correct. Let us now look at ordering percentages, fractions and decimals. I will give you a mix of values and you put them in order from smallest to largest.",00:07:36
+wdhnpkq,58,student,Okay.,00:07:44
+wdhnpkq,59,tutor,"The values are: 0.6, 55 percent, 3 over 5, 0.48, and 62 percent.",00:07:52
+wdhnpkq,60,student,"[unclear] I need to change them all to the same form. If I use decimals: 0.6, 0.55, 0.6, 0.48, 0.62.",00:08:00
+wdhnpkq,61,tutor,Good approach. What do you notice about 0.6 and 3 over 5?,00:08:08
+wdhnpkq,62,student,They are the same.,00:08:16
+wdhnpkq,63,tutor,Correct. So in order?,00:08:24
+wdhnpkq,64,student,"0.48, 0.55, 0.6 and 0.6, and then 0.62.",00:08:32
+wdhnpkq,65,tutor,"Very good. When two values are equal, their order between each other does not matter. Let me give you a harder example. Compare these fractions and percentages: 4 over 9, 45 percent, and 0.44.",00:08:40
+wdhnpkq,66,student,Um... 4 over 9. I need to convert that. 4 divided by 9 is... [unclear] about 0.44 something?,00:08:48
+wdhnpkq,67,tutor,Let us work it out. 4 divided by 9 equals 0.444 recurring. So how does that compare to 0.44?,00:08:56
+wdhnpkq,68,student,It is slightly bigger.,00:09:04
+wdhnpkq,69,tutor,And how does 45 percent compare?,00:09:12
+wdhnpkq,70,student,"45 percent is 0.45, which is bigger than both.",00:09:20
+wdhnpkq,71,tutor,Very good. So in order?,00:09:28
+wdhnpkq,72,student,"0.44, then 0.444 which is 4 over 9, then 0.45 which is 45 percent.",00:09:36
+wdhnpkq,73,tutor,Excellent. Now let us do a quick summary. Can you tell me the three steps to convert a percentage to a fraction in its simplest form?,00:09:44
+wdhnpkq,74,student,"Um, write the percentage over 100, then simplify by dividing by the common factor.",00:09:52
+wdhnpkq,75,tutor,Good. And to convert a percentage to a decimal?,00:10:00
+wdhnpkq,76,student,Divide by 100.,00:10:08
+wdhnpkq,77,tutor,And a decimal to a percentage?,00:10:16
+wdhnpkq,78,student,Multiply by 100.,00:10:24
+wdhnpkq,79,tutor,Excellent. Let us now try some challenge questions. What percentage of this grid is shaded if 17 squares out of 100 are shaded?,00:10:32
+wdhnpkq,80,student,17 percent.,00:10:40
+wdhnpkq,81,tutor,And as a fraction?,00:10:48
+wdhnpkq,82,student,17 over 100.,00:10:56
+wdhnpkq,83,tutor,Can it simplify?,00:11:04
+wdhnpkq,84,student,No because 17 is a prime number.,00:11:12
+wdhnpkq,85,tutor,Very good. Now what if 40 squares out of 200 are shaded? What percentage is that?,00:11:20
+wdhnpkq,86,student,40 out of 200. That is the same as 20 out of 100. So 20 percent.,00:11:28
+wdhnpkq,87,tutor,Correct. What about 30 out of 40?,00:11:36
+wdhnpkq,88,student,"[unclear] 30 over 40 is the same as 75 over 100, so 75 percent.",00:11:44
+wdhnpkq,89,tutor,How did you get from 30 over 40 to 75 over 100?,00:11:52
+wdhnpkq,90,student,"I multiplied both by 2.5. Or I could divide both by 2 first to get 15 over 20, then multiply by 5 to get 75 over 100.",00:12:00
+wdhnpkq,91,tutor,"Both methods work. Well done for finding multiple approaches. Let us finish with an assessment-style question. A number of items in a box are damaged. If 0.12 of the items are damaged, what percentage is that?",00:12:08
+wdhnpkq,92,student,12 percent.,00:12:16
+wdhnpkq,93,tutor,And what fraction in its simplest form?,00:12:24
+wdhnpkq,94,student,12 over 100. Divide by 4 gives 3 over 25.,00:12:32
+wdhnpkq,95,tutor,Correct. Let me give you one final one. 30 percent of a bag of counters are red. What fraction are not red? Write your answer as a decimal.,00:12:40
+wdhnpkq,96,student,"If 30 percent are red, then 70 percent are not red. As a decimal, 0.7.",00:12:48
+wdhnpkq,97,tutor,Perfect. You have done brilliant work today. Shall we have a quick recap of what we covered?,00:12:56
+wdhnpkq,98,student,Yes.,00:13:04
+wdhnpkq,99,tutor,Go ahead and tell me the key things you learned today.,00:13:12
+wdhnpkq,100,student,I learned that percent means out of 100. To convert to a fraction you put the number over 100 and simplify. To convert to a decimal you divide by 100.,00:13:20
+wdhnpkq,101,tutor,Excellent summary. Well done for today's hard work. See you next time.,00:13:28
+wdhnpkq,102,student,Thank you. Bye.,00:13:36
+wdhnpkq,103,background,[unclear],00:13:44
+wdhnpkq,104,tutor,Great effort today. Let us keep up that good work next week.,00:13:52
+wdhnpkq,105,student,I will. Bye.,00:14:00
+wdhnpkq,106,tutor,"Hello, good to see you. Are you ready for today?",00:14:08
+wdhnpkq,107,student,"Yes, I am ready.",00:14:16
+wdhnpkq,108,tutor,Brilliant. Today we are going to look at writing percentages as fractions and as decimals. Have you seen this before?,00:14:24
+wdhnpkq,109,student,A little bit at school.,00:14:32
+wdhnpkq,110,tutor,"Great. Let us start with what percent means. The word percent comes from per centum, which means out of one hundred. So 1 percent means 1 out of 100. How would you write that as a fraction?",00:14:40
+wdhnpkq,111,student,1 over 100?,00:14:48
+wdhnpkq,112,tutor,Exactly. And 50 percent?,00:14:56
+wdhnpkq,113,student,50 over 100.,00:15:04
+wdhnpkq,114,tutor,Good. And can that fraction be simplified?,00:15:12
+wdhnpkq,115,student,Um... to 1 over 2?,00:15:20
+wdhnpkq,116,tutor,That is right. 50 over 100 simplifies to 1 half. And we know that 1 half as a decimal is?,00:15:28
+wdhnpkq,117,student,0.5.,00:15:36
+wdhnpkq,118,tutor,"Excellent. So 50 percent, 1 half, and 0.5 are all the same value. Let us look at 25 percent. What is 25 percent as a fraction?",00:15:44
+wdhnpkq,119,student,25 over 100.,00:15:52
+wdhnpkq,120,tutor,And simplified?,00:16:00
+wdhnpkq,121,student,Um... 5 over 20? No... [unclear],00:16:08
+wdhnpkq,122,tutor,Let us think about it. What is the highest common factor of 25 and 100?,00:16:16
+wdhnpkq,123,student,25.,00:16:24
+wdhnpkq,124,tutor,So divide both by 25. What do you get?,00:16:32
+wdhnpkq,125,student,1 over 4.,00:16:40
+wdhnpkq,126,tutor,Correct. So 25 percent equals 1 quarter. And 1 quarter as a decimal?,00:16:48
+wdhnpkq,127,student,0.25.,00:16:56
+wdhnpkq,128,tutor,Well done. Now 75 percent. Can you work it out?,00:17:04
+wdhnpkq,129,student,75 over 100. Divide by 25 gives 3 over 4.,00:17:12
+wdhnpkq,130,tutor,And as a decimal?,00:17:20
+wdhnpkq,131,student,0.75.,00:17:28
+wdhnpkq,132,tutor,"Excellent. Let us now look at how to convert from fractions to percentages. If you have a fraction, you need to convert it to have a denominator of 100. How would you change 3 over 5 to a percentage?",00:17:36
+wdhnpkq,133,student,Um... I need to make 5 into 100. So I multiply by 20. Then the top becomes 60. So 60 percent?,00:17:44
+wdhnpkq,134,tutor,Perfect. And 7 over 10?,00:17:52
+wdhnpkq,135,student,Multiply top and bottom by 10. 70 over 100. So 70 percent.,00:18:00
+wdhnpkq,136,tutor,Excellent. What about 2 over 25?,00:18:08
+wdhnpkq,137,student,Multiply by 4. 8 over 100. So 8 percent.,00:18:16
+wdhnpkq,138,tutor,"Very good. Now let us look at converting percentages to decimals. The key idea is that percentages are out of 100, and decimals use place value based on 100 and 10. So to convert a percentage to a decimal, you divide by 100. What is 34 percent as a decimal?",00:18:24
+wdhnpkq,139,student,0.34.,00:18:32
+wdhnpkq,140,tutor,Good. And 7 percent?,00:18:40
+wdhnpkq,141,student,[unclear] Um... 0.7?,00:18:48
+wdhnpkq,142,tutor,"Careful. 7 percent means 7 out of 100. When you divide 7 by 100, where does the 7 go?",00:18:56
+wdhnpkq,143,student,"Oh, it goes into the hundredths column. So 0.07.",00:19:04
+wdhnpkq,144,tutor,"Exactly right. 7 percent is 0.07, not 0.7. 0.7 would be 70 percent. Let us practise a few more. What is 3 percent as a decimal?",00:19:12
+wdhnpkq,145,student,0.03.,00:19:20
+wdhnpkq,146,tutor,And 65 percent?,00:19:28
+wdhnpkq,147,student,0.65.,00:19:36
+wdhnpkq,148,tutor,And 100 percent?,00:19:44
+wdhnpkq,149,student,"1.0, which is just 1.",00:19:52
+wdhnpkq,150,tutor,"Correct. Now going the other way. If you have a decimal and you want to write it as a percentage, you multiply by 100. What is 0.45 as a percentage?",00:20:00
+wdhnpkq,151,student,45 percent.,00:20:08
+wdhnpkq,152,tutor,And 0.09?,00:20:16
+wdhnpkq,153,student,9 percent.,00:20:24
+wdhnpkq,154,tutor,And 1.25?,00:20:32
+wdhnpkq,155,student,125 percent.,00:20:40
+wdhnpkq,156,tutor,Well done. A percentage over 100 just means more than the whole. Now let us look at some real-life context. A shop says everything is 20 percent off. What fraction is that?,00:20:48
+wdhnpkq,157,student,"20 over 100, which simplifies to 1 over 5.",00:20:56
+wdhnpkq,158,tutor,"So if something costs 50 in a currency, how much is 1 fifth of 50?",00:21:04
+wdhnpkq,159,student,10.,00:21:12
+wdhnpkq,160,tutor,So the item is 10 off. What do you pay?,00:21:20
+wdhnpkq,161,student,40.,00:21:28
+wdhnpkq,162,tutor,"Correct. Let us now look at ordering percentages, fractions and decimals. I will give you a mix of values and you put them in order from smallest to largest.",00:21:36
+wdhnpkq,163,student,Okay.,00:21:44
+wdhnpkq,164,tutor,"The values are: 0.6, 55 percent, 3 over 5, 0.48, and 62 percent.",00:21:52
+wdhnpkq,165,student,"[unclear] I need to change them all to the same form. If I use decimals: 0.6, 0.55, 0.6, 0.48, 0.62.",00:22:00
+wdhnpkq,166,tutor,Good approach. What do you notice about 0.6 and 3 over 5?,00:22:08
+wdhnpkq,167,student,They are the same.,00:22:16
+wdhnpkq,168,tutor,Correct. So in order?,00:22:24
+wdhnpkq,169,student,"0.48, 0.55, 0.6 and 0.6, and then 0.62.",00:22:32
+wdhnpkq,170,tutor,"Very good. When two values are equal, their order between each other does not matter. Let me give you a harder example. Compare these fractions and percentages: 4 over 9, 45 percent, and 0.44.",00:22:40
+wdhnpkq,171,student,Um... 4 over 9. I need to convert that. 4 divided by 9 is... [unclear] about 0.44 something?,00:22:48
+wdhnpkq,172,tutor,Let us work it out. 4 divided by 9 equals 0.444 recurring. So how does that compare to 0.44?,00:22:56
+wdhnpkq,173,student,It is slightly bigger.,00:23:04
+wdhnpkq,174,tutor,And how does 45 percent compare?,00:23:12
+wdhnpkq,175,student,"45 percent is 0.45, which is bigger than both.",00:23:20
+wdhnpkq,176,tutor,Very good. So in order?,00:23:28
+wdhnpkq,177,student,"0.44, then 0.444 which is 4 over 9, then 0.45 which is 45 percent.",00:23:36
+wdhnpkq,178,tutor,Excellent. Now let us do a quick summary. Can you tell me the three steps to convert a percentage to a fraction in its simplest form?,00:23:44
+wdhnpkq,179,student,"Um, write the percentage over 100, then simplify by dividing by the common factor.",00:23:52
+wdhnpkq,180,tutor,Good. And to convert a percentage to a decimal?,00:24:00
+wdhnpkq,181,student,Divide by 100.,00:24:08
+wdhnpkq,182,tutor,And a decimal to a percentage?,00:24:16
+wdhnpkq,183,student,Multiply by 100.,00:24:24
+wdhnpkq,184,tutor,Excellent. Let us now try some challenge questions. What percentage of this grid is shaded if 17 squares out of 100 are shaded?,00:24:32
+wdhnpkq,185,student,17 percent.,00:24:40
+wdhnpkq,186,tutor,And as a fraction?,00:24:48
+wdhnpkq,187,student,17 over 100.,00:24:56
+wdhnpkq,188,tutor,Can it simplify?,00:25:04
+wdhnpkq,189,student,No because 17 is a prime number.,00:25:12
+wdhnpkq,190,tutor,Very good. Now what if 40 squares out of 200 are shaded? What percentage is that?,00:25:20
+wdhnpkq,191,student,40 out of 200. That is the same as 20 out of 100. So 20 percent.,00:25:28
+wdhnpkq,192,tutor,Correct. What about 30 out of 40?,00:25:36
+wdhnpkq,193,student,"[unclear] 30 over 40 is the same as 75 over 100, so 75 percent.",00:25:44
+wdhnpkq,194,tutor,How did you get from 30 over 40 to 75 over 100?,00:25:52
+wdhnpkq,195,student,"I multiplied both by 2.5. Or I could divide both by 2 first to get 15 over 20, then multiply by 5 to get 75 over 100.",00:26:00
+wdhnpkq,196,tutor,"Both methods work. Well done for finding multiple approaches. Let us finish with an assessment-style question. A number of items in a box are damaged. If 0.12 of the items are damaged, what percentage is that?",00:26:08
+wdhnpkq,197,student,12 percent.,00:26:16
+wdhnpkq,198,tutor,And what fraction in its simplest form?,00:26:24
+wdhnpkq,199,student,12 over 100. Divide by 4 gives 3 over 25.,00:26:32
+wdhnpkq,200,tutor,Correct. Let me give you one final one. 30 percent of a bag of counters are red. What fraction are not red? Write your answer as a decimal.,00:26:40
+wdhnpkq,201,student,"If 30 percent are red, then 70 percent are not red. As a decimal, 0.7.",00:26:48
+wdhnpkq,202,tutor,Perfect. You have done brilliant work today. Shall we have a quick recap of what we covered?,00:26:56
+wdhnpkq,203,student,Yes.,00:27:04
+wdhnpkq,204,tutor,Go ahead and tell me the key things you learned today.,00:27:12
+wdhnpkq,205,student,I learned that percent means out of 100. To convert to a fraction you put the number over 100 and simplify. To convert to a decimal you divide by 100.,00:27:20
+wdhnpkq,206,tutor,Excellent summary. Well done for today's hard work. See you next time.,00:27:28
+wdhnpkq,207,student,Thank you. Bye.,00:27:36
+wdhnpkq,208,background,[unclear],00:27:44
+wdhnpkq,209,tutor,Great effort today. Let us keep up that good work next week.,00:27:52
+wdhnpkq,210,student,I will. Bye.,00:28:00
+wdhnpkq,211,tutor,"Hello, good to see you. Are you ready for today?",00:28:08
+wdhnpkq,212,student,"Yes, I am ready.",00:28:16
+wdhnpkq,213,tutor,Brilliant. Today we are going to look at writing percentages as fractions and as decimals. Have you seen this before?,00:28:24
+wdhnpkq,214,student,A little bit at school.,00:28:32
+wdhnpkq,215,tutor,"Great. Let us start with what percent means. The word percent comes from per centum, which means out of one hundred. So 1 percent means 1 out of 100. How would you write that as a fraction?",00:28:40
+wdhnpkq,216,student,1 over 100?,00:28:48
+wdhnpkq,217,tutor,Exactly. And 50 percent?,00:28:56
+wdhnpkq,218,student,50 over 100.,00:29:04
+wdhnpkq,219,tutor,Good. And can that fraction be simplified?,00:29:12
+wdhnpkq,220,student,Um... to 1 over 2?,00:29:20
+wdhnpkq,221,tutor,That is right. 50 over 100 simplifies to 1 half. And we know that 1 half as a decimal is?,00:29:28
+wdhnpkq,222,student,0.5.,00:29:36
+wdhnpkq,223,tutor,"Excellent. So 50 percent, 1 half, and 0.5 are all the same value. Let us look at 25 percent. What is 25 percent as a fraction?",00:29:44
+wdhnpkq,224,student,25 over 100.,00:29:52
+wdhnpkq,225,tutor,And simplified?,00:30:00
+wdhnpkq,226,student,Um... 5 over 20? No... [unclear],00:30:08
+wdhnpkq,227,tutor,Let us think about it. What is the highest common factor of 25 and 100?,00:30:16
+wdhnpkq,228,student,25.,00:30:24
+wdhnpkq,229,tutor,So divide both by 25. What do you get?,00:30:32
+wdhnpkq,230,student,1 over 4.,00:30:40
+wdhnpkq,231,tutor,Correct. So 25 percent equals 1 quarter. And 1 quarter as a decimal?,00:30:48
+wdhnpkq,232,student,0.25.,00:30:56
+wdhnpkq,233,tutor,Well done. Now 75 percent. Can you work it out?,00:31:04
+wdhnpkq,234,student,75 over 100. Divide by 25 gives 3 over 4.,00:31:12
+wdhnpkq,235,tutor,And as a decimal?,00:31:20
+wdhnpkq,236,student,0.75.,00:31:28
+wdhnpkq,237,tutor,"Excellent. Let us now look at how to convert from fractions to percentages. If you have a fraction, you need to convert it to have a denominator of 100. How would you change 3 over 5 to a percentage?",00:31:36
+wdhnpkq,238,student,Um... I need to make 5 into 100. So I multiply by 20. Then the top becomes 60. So 60 percent?,00:31:44
+wdhnpkq,239,tutor,Perfect. And 7 over 10?,00:31:52
+wdhnpkq,240,student,Multiply top and bottom by 10. 70 over 100. So 70 percent.,00:32:00
+wdhnpkq,241,tutor,Excellent. What about 2 over 25?,00:32:08
+wdhnpkq,242,student,Multiply by 4. 8 over 100. So 8 percent.,00:32:16
+wdhnpkq,243,tutor,"Very good. Now let us look at converting percentages to decimals. The key idea is that percentages are out of 100, and decimals use place value based on 100 and 10. So to convert a percentage to a decimal, you divide by 100. What is 34 percent as a decimal?",00:32:24
+wdhnpkq,244,student,0.34.,00:32:32
+wdhnpkq,245,tutor,Good. And 7 percent?,00:32:40
+wdhnpkq,246,student,[unclear] Um... 0.7?,00:32:48
+wdhnpkq,247,tutor,"Careful. 7 percent means 7 out of 100. When you divide 7 by 100, where does the 7 go?",00:32:56
+wdhnpkq,248,student,"Oh, it goes into the hundredths column. So 0.07.",00:33:04
+wdhnpkq,249,tutor,"Exactly right. 7 percent is 0.07, not 0.7. 0.7 would be 70 percent. Let us practise a few more. What is 3 percent as a decimal?",00:33:12
+wdhnpkq,250,student,0.03.,00:33:20
+wdhnpkq,251,tutor,And 65 percent?,00:33:28
+wdhnpkq,252,student,0.65.,00:33:36
+wdhnpkq,253,tutor,And 100 percent?,00:33:44
+wdhnpkq,254,student,"1.0, which is just 1.",00:33:52
+wdhnpkq,255,tutor,"Correct. Now going the other way. If you have a decimal and you want to write it as a percentage, you multiply by 100. What is 0.45 as a percentage?",00:34:00
+wdhnpkq,256,student,45 percent.,00:34:08
+wdhnpkq,257,tutor,And 0.09?,00:34:16
+wdhnpkq,258,student,9 percent.,00:34:24
+wdhnpkq,259,tutor,And 1.25?,00:34:32
+wdhnpkq,260,student,125 percent.,00:34:40
+wdhnpkq,261,tutor,Well done. A percentage over 100 just means more than the whole. Now let us look at some real-life context. A shop says everything is 20 percent off. What fraction is that?,00:34:48
+wdhnpkq,262,student,"20 over 100, which simplifies to 1 over 5.",00:34:56
+wdhnpkq,263,tutor,"So if something costs 50 in a currency, how much is 1 fifth of 50?",00:35:04
+wdhnpkq,264,student,10.,00:35:12
+wdhnpkq,265,tutor,So the item is 10 off. What do you pay?,00:35:20
+wdhnpkq,266,student,40.,00:35:28
+wdhnpkq,267,tutor,"Correct. Let us now look at ordering percentages, fractions and decimals. I will give you a mix of values and you put them in order from smallest to largest.",00:35:36
+wdhnpkq,268,student,Okay.,00:35:44
+wdhnpkq,269,tutor,"The values are: 0.6, 55 percent, 3 over 5, 0.48, and 62 percent.",00:35:52
+wdhnpkq,270,student,"[unclear] I need to change them all to the same form. If I use decimals: 0.6, 0.55, 0.6, 0.48, 0.62.",00:36:00
+wdhnpkq,271,tutor,Good approach. What do you notice about 0.6 and 3 over 5?,00:36:08
+wdhnpkq,272,student,They are the same.,00:36:16
+wdhnpkq,273,tutor,Correct. So in order?,00:36:24
+wdhnpkq,274,student,"0.48, 0.55, 0.6 and 0.6, and then 0.62.",00:36:32
+wdhnpkq,275,tutor,"Very good. When two values are equal, their order between each other does not matter. Let me give you a harder example. Compare these fractions and percentages: 4 over 9, 45 percent, and 0.44.",00:36:40
+wdhnpkq,276,student,Um... 4 over 9. I need to convert that. 4 divided by 9 is... [unclear] about 0.44 something?,00:36:48

@@ -1,0 +1,205 @@
+session_id,utterance_id,role,content,timestamp
+vbcgmrs,0,background,[unclear],00:00:00
+vbcgmrs,1,tutor,"Hello, how are you today?",00:00:08
+vbcgmrs,2,student,I am good thank you.,00:00:16
+vbcgmrs,3,tutor,"Good. Today we are continuing with developing fluency in addition and subtraction. Last time we looked at some strategies, so today we will practise using them. Are you ready?",00:00:24
+vbcgmrs,4,student,Yes.,00:00:32
+vbcgmrs,5,tutor,Let us start with something you know. What is 500 add 300?,00:00:40
+vbcgmrs,6,student,800.,00:00:48
+vbcgmrs,7,tutor,And 500 subtract 300?,00:00:56
+vbcgmrs,8,student,200.,00:01:04
+vbcgmrs,9,tutor,Good. Now what about 574 add 300?,00:01:12
+vbcgmrs,10,student,874.,00:01:20
+vbcgmrs,11,tutor,Correct. And 874 subtract 300?,00:01:28
+vbcgmrs,12,student,574.,00:01:36
+vbcgmrs,13,tutor,Excellent. Now here is something a little harder. I want you to look at this problem. Something plus 10 equals 405. How would you find the missing number?,00:01:44
+vbcgmrs,14,student,Um... take away 10 from 405?,00:01:52
+vbcgmrs,15,tutor,"That is exactly right. We use the inverse operation. If adding 10 gives us 405, then to find the missing number we subtract 10 from 405. What do you get?",00:02:00
+vbcgmrs,16,student,395.,00:02:08
+vbcgmrs,17,tutor,Well done. Let us try another. Something take away 262 equals 328. What would you do here?,00:02:16
+vbcgmrs,18,student,I think I would add 262 to 328.,00:02:24
+vbcgmrs,19,tutor,Exactly. Because the inverse of subtraction is addition. So what is 328 plus 262?,00:02:32
+vbcgmrs,20,student,Um... [unclear],00:02:40
+vbcgmrs,21,tutor,Take your time. You can work it out using column addition.,00:02:48
+vbcgmrs,22,student,I think it is 590.,00:02:56
+vbcgmrs,23,tutor,"That is correct. 590. Well done. Let us now look at estimating. If I asked you to estimate 497 plus 312, what would you round each number to?",00:03:04
+vbcgmrs,24,student,"Um, 500 and 300?",00:03:12
+vbcgmrs,25,tutor,Good. And 500 plus 300?,00:03:20
+vbcgmrs,26,student,800.,00:03:28
+vbcgmrs,27,tutor,So 497 plus 312 is close to 800. Let us calculate the exact answer now. What do you get?,00:03:36
+vbcgmrs,28,student,809.,00:03:44
+vbcgmrs,29,tutor,Very good. Is that close to our estimate?,00:03:52
+vbcgmrs,30,student,"Yes, it is 9 more than 800.",00:04:00
+vbcgmrs,31,tutor,Exactly. Estimation helps us check that our answer is reasonable. Let me give you another one. Estimate then calculate 694 subtract 278.,00:04:08
+vbcgmrs,32,student,"Um, 700 subtract 300 is 400.",00:04:16
+vbcgmrs,33,tutor,Good estimate. Now the exact answer?,00:04:24
+vbcgmrs,34,student,I got 416.,00:04:32
+vbcgmrs,35,tutor,That is correct. And is that close to 400?,00:04:40
+vbcgmrs,36,student,"Yes, it is only 16 away.",00:04:48
+vbcgmrs,37,tutor,Exactly. Now let us look at a different strategy. Do you know what bridging through tens or hundreds means?,00:04:56
+vbcgmrs,38,student,Not really.,00:05:04
+vbcgmrs,39,tutor,"That is fine. Let me explain. If you want to add 37 to 463, instead of column addition you can first add 37 to get to the next hundred. So from 463, how far is it to 500?",00:05:12
+vbcgmrs,40,student,37.,00:05:20
+vbcgmrs,41,tutor,Exactly. So 463 plus 37 equals 500. That is a nice round number to work with. Let us try 463 plus 47. How would you bridge?,00:05:28
+vbcgmrs,42,student,"Um, 463 plus 37 is 500, and then I have 10 left over, so 510.",00:05:36
+vbcgmrs,43,tutor,Brilliant. Let us now look at something that might trip you up. What is 400 subtract 167?,00:05:44
+vbcgmrs,44,student,[unclear] I find that hard.,00:05:52
+vbcgmrs,45,tutor,Let me show you a nice way. You can count up from 167 to 400. How far from 167 to 200?,00:06:00
+vbcgmrs,46,student,33.,00:06:08
+vbcgmrs,47,tutor,Good. And from 200 to 400?,00:06:16
+vbcgmrs,48,student,200.,00:06:24
+vbcgmrs,49,tutor,"So the total difference is 33 plus 200, which is?",00:06:32
+vbcgmrs,50,student,233.,00:06:40
+vbcgmrs,51,tutor,Correct. Let us check by adding: 167 plus 233 should equal 400.,00:06:48
+vbcgmrs,52,student,Yes it does.,00:06:56
+vbcgmrs,53,tutor,"Good. Counting up to find a difference is a very useful strategy, especially when the numbers are close together. Let me give you a similar one. What is 704 subtract 697?",00:07:04
+vbcgmrs,54,student,"Um, they are really close together. From 697 to 700 is 3, and then from 700 to 704 is 4. So it is 7.",00:07:12
+vbcgmrs,55,tutor,Excellent strategy. Well done. Let us now look at some word problems. Can you read this one?,00:07:20
+vbcgmrs,56,student,The total distance of a route is 483 kilometres. A vehicle has already travelled 257 kilometres. How much further does it need to go?,00:07:28
+vbcgmrs,57,tutor,Good. What operation do we need?,00:07:36
+vbcgmrs,58,student,Subtraction. 483 take away 257.,00:07:44
+vbcgmrs,59,tutor,What do you get?,00:07:52
+vbcgmrs,60,student,226.,00:08:00
+vbcgmrs,61,tutor,Correct. Let me give you another one. A shop has 1000 items. In the morning 364 are sold. In the afternoon 275 more are sold. How many are left?,00:08:08
+vbcgmrs,62,student,"[unclear] Um, first I need 364 plus 275 which is 639. Then 1000 minus 639 is 361.",00:08:16
+vbcgmrs,63,tutor,Excellent. That is a two-step problem and you solved it perfectly. Let us now look at missing number problems with larger numbers.,00:08:24
+vbcgmrs,64,student,Okay.,00:08:32
+vbcgmrs,65,tutor,Something plus 40 equals 782. What is the missing number?,00:08:40
+vbcgmrs,66,student,"782 subtract 40, which is 742.",00:08:48
+vbcgmrs,67,tutor,Correct. And 175 plus something equals 270?,00:08:56
+vbcgmrs,68,student,270 subtract 175 is 95.,00:09:04
+vbcgmrs,69,tutor,Very well done. Let me give you a really big number challenge now. This one involves millions.,00:09:12
+vbcgmrs,70,student,Okay.,00:09:20
+vbcgmrs,71,tutor,"8,041,020 equals 8 million plus something plus 20. What is the missing number?",00:09:28
+vbcgmrs,72,student,"[unclear] Um... I think it is 41,000.",00:09:36
+vbcgmrs,73,tutor,That is correct. Can you explain why?,00:09:44
+vbcgmrs,74,student,"Because 8 million and 20 are accounted for, so the rest must be 41,000 because of the 41 in the thousands place.",00:09:52
+vbcgmrs,75,tutor,Very well reasoned. Let us do a few more practice questions to finish up. These are the style of questions you might see in an assessment.,00:10:00
+vbcgmrs,76,student,Okay.,00:10:08
+vbcgmrs,77,tutor,"Work out the missing digits in this calculation: [unclear] 3 something 4, take away 2 something 7, equals something 0 7.",00:10:16
+vbcgmrs,78,student,"Um, I will start from the ones column. 4 take away 7 I cannot do, so I need to borrow.",00:10:24
+vbcgmrs,79,tutor,Good start. Carry on.,00:10:32
+vbcgmrs,80,student,So I borrow from the tens. That makes 14 take away 7 equals 7. [unclear],00:10:40
+vbcgmrs,81,tutor,Good. What about the tens column now?,00:10:48
+vbcgmrs,82,student,"The tens column now has 2 take away 1 from borrowing, so it is something take away something equals 0.",00:10:56
+vbcgmrs,83,tutor,What number take away what equals 0?,00:11:04
+vbcgmrs,84,student,"The same number. So if the bottom is 3, the top must be 3 before borrowing, so it was 4. [unclear]",00:11:12
+vbcgmrs,85,tutor,Very good thinking there. I am impressed. Let us move on to our last problem of the day.,00:11:20
+vbcgmrs,86,student,Okay.,00:11:28
+vbcgmrs,87,tutor,"If the total of two numbers is 1000 and one number is 384, what is the other?",00:11:36
+vbcgmrs,88,student,1000 subtract 384 equals 616.,00:11:44
+vbcgmrs,89,tutor,Correct. Can you explain your method?,00:11:52
+vbcgmrs,90,student,"I went 384 to 400 is 16, then 400 to 1000 is 600, so altogether 616.",00:12:00
+vbcgmrs,91,tutor,Excellent use of the bridging strategy. Well done today. You have made great progress.,00:12:08
+vbcgmrs,92,student,Thank you.,00:12:16
+vbcgmrs,93,tutor,Next time we will look at multiplication. See you then.,00:12:24
+vbcgmrs,94,student,Bye.,00:12:32
+vbcgmrs,95,tutor,"Hello, how are you today?",00:12:40
+vbcgmrs,96,student,I am good thank you.,00:12:48
+vbcgmrs,97,tutor,"Good. Today we are continuing with developing fluency in addition and subtraction. Last time we looked at some strategies, so today we will practise using them. Are you ready?",00:12:56
+vbcgmrs,98,student,Yes.,00:13:04
+vbcgmrs,99,tutor,Let us start with something you know. What is 500 add 300?,00:13:12
+vbcgmrs,100,student,800.,00:13:20
+vbcgmrs,101,tutor,And 500 subtract 300?,00:13:28
+vbcgmrs,102,student,200.,00:13:36
+vbcgmrs,103,tutor,Good. Now what about 574 add 300?,00:13:44
+vbcgmrs,104,student,874.,00:13:52
+vbcgmrs,105,tutor,Correct. And 874 subtract 300?,00:14:00
+vbcgmrs,106,student,574.,00:14:08
+vbcgmrs,107,tutor,Excellent. Now here is something a little harder. I want you to look at this problem. Something plus 10 equals 405. How would you find the missing number?,00:14:16
+vbcgmrs,108,student,Um... take away 10 from 405?,00:14:24
+vbcgmrs,109,tutor,"That is exactly right. We use the inverse operation. If adding 10 gives us 405, then to find the missing number we subtract 10 from 405. What do you get?",00:14:32
+vbcgmrs,110,student,395.,00:14:40
+vbcgmrs,111,tutor,Well done. Let us try another. Something take away 262 equals 328. What would you do here?,00:14:48
+vbcgmrs,112,student,I think I would add 262 to 328.,00:14:56
+vbcgmrs,113,tutor,Exactly. Because the inverse of subtraction is addition. So what is 328 plus 262?,00:15:04
+vbcgmrs,114,student,Um... [unclear],00:15:12
+vbcgmrs,115,tutor,Take your time. You can work it out using column addition.,00:15:20
+vbcgmrs,116,student,I think it is 590.,00:15:28
+vbcgmrs,117,tutor,"That is correct. 590. Well done. Let us now look at estimating. If I asked you to estimate 497 plus 312, what would you round each number to?",00:15:36
+vbcgmrs,118,student,"Um, 500 and 300?",00:15:44
+vbcgmrs,119,tutor,Good. And 500 plus 300?,00:15:52
+vbcgmrs,120,student,800.,00:16:00
+vbcgmrs,121,tutor,So 497 plus 312 is close to 800. Let us calculate the exact answer now. What do you get?,00:16:08
+vbcgmrs,122,student,809.,00:16:16
+vbcgmrs,123,tutor,Very good. Is that close to our estimate?,00:16:24
+vbcgmrs,124,student,"Yes, it is 9 more than 800.",00:16:32
+vbcgmrs,125,tutor,Exactly. Estimation helps us check that our answer is reasonable. Let me give you another one. Estimate then calculate 694 subtract 278.,00:16:40
+vbcgmrs,126,student,"Um, 700 subtract 300 is 400.",00:16:48
+vbcgmrs,127,tutor,Good estimate. Now the exact answer?,00:16:56
+vbcgmrs,128,student,I got 416.,00:17:04
+vbcgmrs,129,tutor,That is correct. And is that close to 400?,00:17:12
+vbcgmrs,130,student,"Yes, it is only 16 away.",00:17:20
+vbcgmrs,131,tutor,Exactly. Now let us look at a different strategy. Do you know what bridging through tens or hundreds means?,00:17:28
+vbcgmrs,132,student,Not really.,00:17:36
+vbcgmrs,133,tutor,"That is fine. Let me explain. If you want to add 37 to 463, instead of column addition you can first add 37 to get to the next hundred. So from 463, how far is it to 500?",00:17:44
+vbcgmrs,134,student,37.,00:17:52
+vbcgmrs,135,tutor,Exactly. So 463 plus 37 equals 500. That is a nice round number to work with. Let us try 463 plus 47. How would you bridge?,00:18:00
+vbcgmrs,136,student,"Um, 463 plus 37 is 500, and then I have 10 left over, so 510.",00:18:08
+vbcgmrs,137,tutor,Brilliant. Let us now look at something that might trip you up. What is 400 subtract 167?,00:18:16
+vbcgmrs,138,student,[unclear] I find that hard.,00:18:24
+vbcgmrs,139,tutor,Let me show you a nice way. You can count up from 167 to 400. How far from 167 to 200?,00:18:32
+vbcgmrs,140,student,33.,00:18:40
+vbcgmrs,141,tutor,Good. And from 200 to 400?,00:18:48
+vbcgmrs,142,student,200.,00:18:56
+vbcgmrs,143,tutor,"So the total difference is 33 plus 200, which is?",00:19:04
+vbcgmrs,144,student,233.,00:19:12
+vbcgmrs,145,tutor,Correct. Let us check by adding: 167 plus 233 should equal 400.,00:19:20
+vbcgmrs,146,student,Yes it does.,00:19:28
+vbcgmrs,147,tutor,"Good. Counting up to find a difference is a very useful strategy, especially when the numbers are close together. Let me give you a similar one. What is 704 subtract 697?",00:19:36
+vbcgmrs,148,student,"Um, they are really close together. From 697 to 700 is 3, and then from 700 to 704 is 4. So it is 7.",00:19:44
+vbcgmrs,149,tutor,Excellent strategy. Well done. Let us now look at some word problems. Can you read this one?,00:19:52
+vbcgmrs,150,student,The total distance of a route is 483 kilometres. A vehicle has already travelled 257 kilometres. How much further does it need to go?,00:20:00
+vbcgmrs,151,tutor,Good. What operation do we need?,00:20:08
+vbcgmrs,152,student,Subtraction. 483 take away 257.,00:20:16
+vbcgmrs,153,tutor,What do you get?,00:20:24
+vbcgmrs,154,student,226.,00:20:32
+vbcgmrs,155,tutor,Correct. Let me give you another one. A shop has 1000 items. In the morning 364 are sold. In the afternoon 275 more are sold. How many are left?,00:20:40
+vbcgmrs,156,student,"[unclear] Um, first I need 364 plus 275 which is 639. Then 1000 minus 639 is 361.",00:20:48
+vbcgmrs,157,tutor,Excellent. That is a two-step problem and you solved it perfectly. Let us now look at missing number problems with larger numbers.,00:20:56
+vbcgmrs,158,student,Okay.,00:21:04
+vbcgmrs,159,tutor,Something plus 40 equals 782. What is the missing number?,00:21:12
+vbcgmrs,160,student,"782 subtract 40, which is 742.",00:21:20
+vbcgmrs,161,tutor,Correct. And 175 plus something equals 270?,00:21:28
+vbcgmrs,162,student,270 subtract 175 is 95.,00:21:36
+vbcgmrs,163,tutor,Very well done. Let me give you a really big number challenge now. This one involves millions.,00:21:44
+vbcgmrs,164,student,Okay.,00:21:52
+vbcgmrs,165,tutor,"8,041,020 equals 8 million plus something plus 20. What is the missing number?",00:22:00
+vbcgmrs,166,student,"[unclear] Um... I think it is 41,000.",00:22:08
+vbcgmrs,167,tutor,That is correct. Can you explain why?,00:22:16
+vbcgmrs,168,student,"Because 8 million and 20 are accounted for, so the rest must be 41,000 because of the 41 in the thousands place.",00:22:24
+vbcgmrs,169,tutor,Very well reasoned. Let us do a few more practice questions to finish up. These are the style of questions you might see in an assessment.,00:22:32
+vbcgmrs,170,student,Okay.,00:22:40
+vbcgmrs,171,tutor,"Work out the missing digits in this calculation: [unclear] 3 something 4, take away 2 something 7, equals something 0 7.",00:22:48
+vbcgmrs,172,student,"Um, I will start from the ones column. 4 take away 7 I cannot do, so I need to borrow.",00:22:56
+vbcgmrs,173,tutor,Good start. Carry on.,00:23:04
+vbcgmrs,174,student,So I borrow from the tens. That makes 14 take away 7 equals 7. [unclear],00:23:12
+vbcgmrs,175,tutor,Good. What about the tens column now?,00:23:20
+vbcgmrs,176,student,"The tens column now has 2 take away 1 from borrowing, so it is something take away something equals 0.",00:23:28
+vbcgmrs,177,tutor,What number take away what equals 0?,00:23:36
+vbcgmrs,178,student,"The same number. So if the bottom is 3, the top must be 3 before borrowing, so it was 4. [unclear]",00:23:44
+vbcgmrs,179,tutor,Very good thinking there. I am impressed. Let us move on to our last problem of the day.,00:23:52
+vbcgmrs,180,student,Okay.,00:24:00
+vbcgmrs,181,tutor,"If the total of two numbers is 1000 and one number is 384, what is the other?",00:24:08
+vbcgmrs,182,student,1000 subtract 384 equals 616.,00:24:16
+vbcgmrs,183,tutor,Correct. Can you explain your method?,00:24:24
+vbcgmrs,184,student,"I went 384 to 400 is 16, then 400 to 1000 is 600, so altogether 616.",00:24:32
+vbcgmrs,185,tutor,Excellent use of the bridging strategy. Well done today. You have made great progress.,00:24:40
+vbcgmrs,186,student,Thank you.,00:24:48
+vbcgmrs,187,tutor,Next time we will look at multiplication. See you then.,00:24:56
+vbcgmrs,188,student,Bye.,00:25:04
+vbcgmrs,189,tutor,"Hello, how are you today?",00:25:12
+vbcgmrs,190,student,I am good thank you.,00:25:20
+vbcgmrs,191,tutor,"Good. Today we are continuing with developing fluency in addition and subtraction. Last time we looked at some strategies, so today we will practise using them. Are you ready?",00:25:28
+vbcgmrs,192,student,Yes.,00:25:36
+vbcgmrs,193,tutor,Let us start with something you know. What is 500 add 300?,00:25:44
+vbcgmrs,194,student,800.,00:25:52
+vbcgmrs,195,tutor,And 500 subtract 300?,00:26:00
+vbcgmrs,196,student,200.,00:26:08
+vbcgmrs,197,tutor,Good. Now what about 574 add 300?,00:26:16
+vbcgmrs,198,student,874.,00:26:24
+vbcgmrs,199,tutor,Correct. And 874 subtract 300?,00:26:32
+vbcgmrs,200,student,574.,00:26:40
+vbcgmrs,201,tutor,Excellent. Now here is something a little harder. I want you to look at this problem. Something plus 10 equals 405. How would you find the missing number?,00:26:48
+vbcgmrs,202,student,Um... take away 10 from 405?,00:26:56
+vbcgmrs,203,tutor,"That is exactly right. We use the inverse operation. If adding 10 gives us 405, then to find the missing number we subtract 10 from 405. What do you get?",00:27:04

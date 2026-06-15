@@ -1,0 +1,217 @@
+session_id,utterance_id,role,content,timestamp
+txqplmn,0,background,[unclear],00:00:00
+txqplmn,1,tutor,"Hello, are you ready to get started today?",00:00:08
+txqplmn,2,student,"Yes, I think so.",00:00:16
+txqplmn,3,tutor,Great. So today we are going to look at fact families and how they help us multiply and divide.,00:00:24
+txqplmn,4,student,Okay.,00:00:32
+txqplmn,5,tutor,So let me ask you first. Do you know what a fact family is?,00:00:40
+txqplmn,6,student,Not really.,00:00:48
+txqplmn,7,tutor,"That is fine. A fact family is a group of related number sentences that all use the same three numbers. For example, 3, 4, and 12. Can you think of a multiplication sentence using those three numbers?",00:00:56
+txqplmn,8,student,"Um, 3 times 4 equals 12?",00:01:04
+txqplmn,9,tutor,Exactly right. And can you think of another one?,00:01:12
+txqplmn,10,student,4 times 3 equals 12?,00:01:20
+txqplmn,11,tutor,Very good. Now what about division sentences using those same three numbers?,00:01:28
+txqplmn,12,student,12 divided by 3 equals... 4?,00:01:36
+txqplmn,13,tutor,That is correct. And the last one?,00:01:44
+txqplmn,14,student,12 divided by 4 equals 3.,00:01:52
+txqplmn,15,tutor,Excellent. So you have just made a complete fact family. Those four number sentences all belong together because they use the same three numbers. Does that make sense?,00:02:00
+txqplmn,16,student,"Yes, I think so.",00:02:08
+txqplmn,17,tutor,"Let us try another one. I will give you the three numbers and you give me all four number sentences. The numbers are 5, 7, and 35.",00:02:16
+txqplmn,18,student,"[unclear] Um, 5 times 7 equals 35.",00:02:24
+txqplmn,19,tutor,"Good, keep going.",00:02:32
+txqplmn,20,student,7 times 5 equals 35. And then 35 divided by 5 equals 7.,00:02:40
+txqplmn,21,tutor,Very good. One more.,00:02:48
+txqplmn,22,student,35 divided by 7 equals 5.,00:02:56
+txqplmn,23,tutor,Fantastic. You have got all four. Now can you see why knowing your times tables helps with division as well?,00:03:04
+txqplmn,24,student,Because they use the same numbers?,00:03:12
+txqplmn,25,tutor,"Exactly right. When you know that 5 times 7 is 35, you automatically know that 35 divided by 7 is 5. It is all connected. Let us try a slightly harder one now. The numbers are 6, 8, and 48. Can you give me all four?",00:03:20
+txqplmn,26,student,"6 times 8 equals 48, and 8 times 6 equals 48. Then 48 divided by 6 equals 8, and 48 divided by 8 equals 6.",00:03:28
+txqplmn,27,tutor,"Perfect, very well done. Now I want you to look at this question here. If 9 times 4 equals 36, what is 36 divided by 9?",00:03:36
+txqplmn,28,student,4.,00:03:44
+txqplmn,29,tutor,Correct. And what is 36 divided by 4?,00:03:52
+txqplmn,30,student,9.,00:04:00
+txqplmn,31,tutor,"Well done. Now let us think about scaling. If 5 times 3 equals 15, what do you think 5 times 30 equals?",00:04:08
+txqplmn,32,student,Um... 150?,00:04:16
+txqplmn,33,tutor,That is exactly right. Can you explain how you figured that out?,00:04:24
+txqplmn,34,student,"Because 30 is 10 times bigger than 3, so the answer is 10 times bigger.",00:04:32
+txqplmn,35,tutor,"Excellent explanation. So when we multiply one of the numbers by 10, the answer also gets 10 times bigger. What about 50 times 3?",00:04:40
+txqplmn,36,student,That would also be 150.,00:04:48
+txqplmn,37,tutor,Correct again. And 50 times 30?,00:04:56
+txqplmn,38,student,[unclear] Would it be... 1500?,00:05:04
+txqplmn,39,tutor,"Very good. Now let us look at what happens with division. If 15 divided by 3 equals 5, what is 150 divided by 3?",00:05:12
+txqplmn,40,student,50.,00:05:20
+txqplmn,41,tutor,Right. And 150 divided by 30?,00:05:28
+txqplmn,42,student,Um... 5?,00:05:36
+txqplmn,43,tutor,That is correct. So the extra zero on the bottom cancels out the extra zero on the top. Let us try a problem now. Can you read this question out please?,00:05:44
+txqplmn,44,student,"If 7 times 8 equals 56, use this fact to work out 560 divided by 8.",00:05:52
+txqplmn,45,tutor,Good. So what is 560 divided by 8?,00:06:00
+txqplmn,46,student,70.,00:06:08
+txqplmn,47,tutor,How did you work that out?,00:06:16
+txqplmn,48,student,"Because 56 divided by 8 is 7, but there is an extra zero, so it is 70.",00:06:24
+txqplmn,49,tutor,Perfect. Let us keep practising. Here is another one. 4 times 9 equals 36. What is 360 divided by 4?,00:06:32
+txqplmn,50,student,90.,00:06:40
+txqplmn,51,tutor,Well done. Now let me show you a triangle diagram that helps with fact families. You put the largest number at the top and the two factors at the bottom.,00:06:48
+txqplmn,52,student,Okay.,00:06:56
+txqplmn,53,tutor,"So if I put 24 at the top, and then 3 and 8 at the bottom, what multiplication sentences can we make?",00:07:04
+txqplmn,54,student,"3 times 8 equals 24, and 8 times 3 equals 24.",00:07:12
+txqplmn,55,tutor,And the division sentences?,00:07:20
+txqplmn,56,student,"24 divided by 3 equals 8, and 24 divided by 8 equals 3.",00:07:28
+txqplmn,57,tutor,"Brilliant. Let me give you a challenge question. I am thinking of a number. When I multiply it by 7, I get 63. What is my number?",00:07:36
+txqplmn,58,student,9.,00:07:44
+txqplmn,59,tutor,Correct. How did you figure that out?,00:07:52
+txqplmn,60,student,Because 9 times 7 is 63 from the 9 times table.,00:08:00
+txqplmn,61,tutor,"Excellent. Now here is a harder one. When I multiply my number by 6, I get 480. What is my number?",00:08:08
+txqplmn,62,student,[unclear] Um...,00:08:16
+txqplmn,63,tutor,Think about it this way. Do you know 8 times 6?,00:08:24
+txqplmn,64,student,"Yes, it is 48.",00:08:32
+txqplmn,65,tutor,So what is 80 times 6?,00:08:40
+txqplmn,66,student,"Oh, 480. So the number is 80.",00:08:48
+txqplmn,67,tutor,"Very well done. Let us now try some questions where there are zeros involved. If 6 times 4 equals 24, what is 240 divided by 6?",00:08:56
+txqplmn,68,student,40.,00:09:04
+txqplmn,69,tutor,Good. And what is 2400 divided by 6?,00:09:12
+txqplmn,70,student,400.,00:09:20
+txqplmn,71,tutor,Excellent. Can you explain the pattern?,00:09:28
+txqplmn,72,student,"Every extra zero you add on top, the answer gets another zero too.",00:09:36
+txqplmn,73,tutor,That is a very good way of putting it. Let me give you a mixed set of questions now. Take your time and let me know if you need help.,00:09:44
+txqplmn,74,student,Okay.,00:09:52
+txqplmn,75,background,[unclear],00:10:00
+txqplmn,76,student,I got 7 for the first one.,00:10:08
+txqplmn,77,tutor,"Let us check. 7 times 9 is 63, yes that is right. How about the second one?",00:10:16
+txqplmn,78,student,I got 500.,00:10:24
+txqplmn,79,tutor,Can you explain how?,00:10:32
+txqplmn,80,student,"Because 5 times 6 is 30, so 3000 divided by 6 is 500.",00:10:40
+txqplmn,81,tutor,Very well done. Now let us look at this question together. [unclear],00:10:48
+txqplmn,82,student,Okay. So 8 times 7 equals 56.,00:10:56
+txqplmn,83,tutor,And what does that tell us about 56 divided by 7?,00:11:04
+txqplmn,84,student,It equals 8.,00:11:12
+txqplmn,85,tutor,Good. Now use that to help with 5600 divided by 7.,00:11:20
+txqplmn,86,student,800.,00:11:28
+txqplmn,87,tutor,Correct. You are doing really well today. Shall we move on to a challenge?,00:11:36
+txqplmn,88,student,Yes please.,00:11:44
+txqplmn,89,tutor,Here is a real-life problem. A school has 360 pencils. They are shared equally between 9 classes. How many pencils does each class get?,00:11:52
+txqplmn,90,student,That would be 40.,00:12:00
+txqplmn,91,tutor,How did you work that out?,00:12:08
+txqplmn,92,student,"I know 4 times 9 is 36, so 40 times 9 is 360.",00:12:16
+txqplmn,93,tutor,Excellent thinking. Let me give you another one. A baker makes 480 rolls. He packs them into bags of 6. How many bags does he need?,00:12:24
+txqplmn,94,student,"[unclear] Um, 80.",00:12:32
+txqplmn,95,tutor,Very good. And another. A number is multiplied by 8 and the answer is 720. What is the number?,00:12:40
+txqplmn,96,student,90.,00:12:48
+txqplmn,97,tutor,How do you know?,00:12:56
+txqplmn,98,student,"Because 9 times 8 is 72, so 90 times 8 is 720.",00:13:04
+txqplmn,99,tutor,"That is great reasoning. One more challenge. Complete the fact family for these numbers: 70, 8, 560.",00:13:12
+txqplmn,100,student,70 times 8 equals 560. 8 times 70 equals 560. 560 divided by 8 equals 70. And 560 divided by 70 equals 8.,00:13:20
+txqplmn,101,tutor,"Perfect, all four number sentences correct. You have really understood fact families today.",00:13:28
+txqplmn,102,student,Thank you.,00:13:36
+txqplmn,103,tutor,Do you have any questions before we finish?,00:13:44
+txqplmn,104,student,"No, I think I understand now.",00:13:52
+txqplmn,105,tutor,Brilliant work today. We will carry on with more multiplication and division practice next time. See you then.,00:14:00
+txqplmn,106,student,Bye.,00:14:08
+txqplmn,107,tutor,"Hello, are you ready to get started today?",00:14:16
+txqplmn,108,student,"Yes, I think so.",00:14:24
+txqplmn,109,tutor,Great. So today we are going to look at fact families and how they help us multiply and divide.,00:14:32
+txqplmn,110,student,Okay.,00:14:40
+txqplmn,111,tutor,So let me ask you first. Do you know what a fact family is?,00:14:48
+txqplmn,112,student,Not really.,00:14:56
+txqplmn,113,tutor,"That is fine. A fact family is a group of related number sentences that all use the same three numbers. For example, 3, 4, and 12. Can you think of a multiplication sentence using those three numbers?",00:15:04
+txqplmn,114,student,"Um, 3 times 4 equals 12?",00:15:12
+txqplmn,115,tutor,Exactly right. And can you think of another one?,00:15:20
+txqplmn,116,student,4 times 3 equals 12?,00:15:28
+txqplmn,117,tutor,Very good. Now what about division sentences using those same three numbers?,00:15:36
+txqplmn,118,student,12 divided by 3 equals... 4?,00:15:44
+txqplmn,119,tutor,That is correct. And the last one?,00:15:52
+txqplmn,120,student,12 divided by 4 equals 3.,00:16:00
+txqplmn,121,tutor,Excellent. So you have just made a complete fact family. Those four number sentences all belong together because they use the same three numbers. Does that make sense?,00:16:08
+txqplmn,122,student,"Yes, I think so.",00:16:16
+txqplmn,123,tutor,"Let us try another one. I will give you the three numbers and you give me all four number sentences. The numbers are 5, 7, and 35.",00:16:24
+txqplmn,124,student,"[unclear] Um, 5 times 7 equals 35.",00:16:32
+txqplmn,125,tutor,"Good, keep going.",00:16:40
+txqplmn,126,student,7 times 5 equals 35. And then 35 divided by 5 equals 7.,00:16:48
+txqplmn,127,tutor,Very good. One more.,00:16:56
+txqplmn,128,student,35 divided by 7 equals 5.,00:17:04
+txqplmn,129,tutor,Fantastic. You have got all four. Now can you see why knowing your times tables helps with division as well?,00:17:12
+txqplmn,130,student,Because they use the same numbers?,00:17:20
+txqplmn,131,tutor,"Exactly right. When you know that 5 times 7 is 35, you automatically know that 35 divided by 7 is 5. It is all connected. Let us try a slightly harder one now. The numbers are 6, 8, and 48. Can you give me all four?",00:17:28
+txqplmn,132,student,"6 times 8 equals 48, and 8 times 6 equals 48. Then 48 divided by 6 equals 8, and 48 divided by 8 equals 6.",00:17:36
+txqplmn,133,tutor,"Perfect, very well done. Now I want you to look at this question here. If 9 times 4 equals 36, what is 36 divided by 9?",00:17:44
+txqplmn,134,student,4.,00:17:52
+txqplmn,135,tutor,Correct. And what is 36 divided by 4?,00:18:00
+txqplmn,136,student,9.,00:18:08
+txqplmn,137,tutor,"Well done. Now let us think about scaling. If 5 times 3 equals 15, what do you think 5 times 30 equals?",00:18:16
+txqplmn,138,student,Um... 150?,00:18:24
+txqplmn,139,tutor,That is exactly right. Can you explain how you figured that out?,00:18:32
+txqplmn,140,student,"Because 30 is 10 times bigger than 3, so the answer is 10 times bigger.",00:18:40
+txqplmn,141,tutor,"Excellent explanation. So when we multiply one of the numbers by 10, the answer also gets 10 times bigger. What about 50 times 3?",00:18:48
+txqplmn,142,student,That would also be 150.,00:18:56
+txqplmn,143,tutor,Correct again. And 50 times 30?,00:19:04
+txqplmn,144,student,[unclear] Would it be... 1500?,00:19:12
+txqplmn,145,tutor,"Very good. Now let us look at what happens with division. If 15 divided by 3 equals 5, what is 150 divided by 3?",00:19:20
+txqplmn,146,student,50.,00:19:28
+txqplmn,147,tutor,Right. And 150 divided by 30?,00:19:36
+txqplmn,148,student,Um... 5?,00:19:44
+txqplmn,149,tutor,That is correct. So the extra zero on the bottom cancels out the extra zero on the top. Let us try a problem now. Can you read this question out please?,00:19:52
+txqplmn,150,student,"If 7 times 8 equals 56, use this fact to work out 560 divided by 8.",00:20:00
+txqplmn,151,tutor,Good. So what is 560 divided by 8?,00:20:08
+txqplmn,152,student,70.,00:20:16
+txqplmn,153,tutor,How did you work that out?,00:20:24
+txqplmn,154,student,"Because 56 divided by 8 is 7, but there is an extra zero, so it is 70.",00:20:32
+txqplmn,155,tutor,Perfect. Let us keep practising. Here is another one. 4 times 9 equals 36. What is 360 divided by 4?,00:20:40
+txqplmn,156,student,90.,00:20:48
+txqplmn,157,tutor,Well done. Now let me show you a triangle diagram that helps with fact families. You put the largest number at the top and the two factors at the bottom.,00:20:56
+txqplmn,158,student,Okay.,00:21:04
+txqplmn,159,tutor,"So if I put 24 at the top, and then 3 and 8 at the bottom, what multiplication sentences can we make?",00:21:12
+txqplmn,160,student,"3 times 8 equals 24, and 8 times 3 equals 24.",00:21:20
+txqplmn,161,tutor,And the division sentences?,00:21:28
+txqplmn,162,student,"24 divided by 3 equals 8, and 24 divided by 8 equals 3.",00:21:36
+txqplmn,163,tutor,"Brilliant. Let me give you a challenge question. I am thinking of a number. When I multiply it by 7, I get 63. What is my number?",00:21:44
+txqplmn,164,student,9.,00:21:52
+txqplmn,165,tutor,Correct. How did you figure that out?,00:22:00
+txqplmn,166,student,Because 9 times 7 is 63 from the 9 times table.,00:22:08
+txqplmn,167,tutor,"Excellent. Now here is a harder one. When I multiply my number by 6, I get 480. What is my number?",00:22:16
+txqplmn,168,student,[unclear] Um...,00:22:24
+txqplmn,169,tutor,Think about it this way. Do you know 8 times 6?,00:22:32
+txqplmn,170,student,"Yes, it is 48.",00:22:40
+txqplmn,171,tutor,So what is 80 times 6?,00:22:48
+txqplmn,172,student,"Oh, 480. So the number is 80.",00:22:56
+txqplmn,173,tutor,"Very well done. Let us now try some questions where there are zeros involved. If 6 times 4 equals 24, what is 240 divided by 6?",00:23:04
+txqplmn,174,student,40.,00:23:12
+txqplmn,175,tutor,Good. And what is 2400 divided by 6?,00:23:20
+txqplmn,176,student,400.,00:23:28
+txqplmn,177,tutor,Excellent. Can you explain the pattern?,00:23:36
+txqplmn,178,student,"Every extra zero you add on top, the answer gets another zero too.",00:23:44
+txqplmn,179,tutor,That is a very good way of putting it. Let me give you a mixed set of questions now. Take your time and let me know if you need help.,00:23:52
+txqplmn,180,student,Okay.,00:24:00
+txqplmn,181,background,[unclear],00:24:08
+txqplmn,182,student,I got 7 for the first one.,00:24:16
+txqplmn,183,tutor,"Let us check. 7 times 9 is 63, yes that is right. How about the second one?",00:24:24
+txqplmn,184,student,I got 500.,00:24:32
+txqplmn,185,tutor,Can you explain how?,00:24:40
+txqplmn,186,student,"Because 5 times 6 is 30, so 3000 divided by 6 is 500.",00:24:48
+txqplmn,187,tutor,Very well done. Now let us look at this question together. [unclear],00:24:56
+txqplmn,188,student,Okay. So 8 times 7 equals 56.,00:25:04
+txqplmn,189,tutor,And what does that tell us about 56 divided by 7?,00:25:12
+txqplmn,190,student,It equals 8.,00:25:20
+txqplmn,191,tutor,Good. Now use that to help with 5600 divided by 7.,00:25:28
+txqplmn,192,student,800.,00:25:36
+txqplmn,193,tutor,Correct. You are doing really well today. Shall we move on to a challenge?,00:25:44
+txqplmn,194,student,Yes please.,00:25:52
+txqplmn,195,tutor,Here is a real-life problem. A school has 360 pencils. They are shared equally between 9 classes. How many pencils does each class get?,00:26:00
+txqplmn,196,student,That would be 40.,00:26:08
+txqplmn,197,tutor,How did you work that out?,00:26:16
+txqplmn,198,student,"I know 4 times 9 is 36, so 40 times 9 is 360.",00:26:24
+txqplmn,199,tutor,Excellent thinking. Let me give you another one. A baker makes 480 rolls. He packs them into bags of 6. How many bags does he need?,00:26:32
+txqplmn,200,student,"[unclear] Um, 80.",00:26:40
+txqplmn,201,tutor,Very good. And another. A number is multiplied by 8 and the answer is 720. What is the number?,00:26:48
+txqplmn,202,student,90.,00:26:56
+txqplmn,203,tutor,How do you know?,00:27:04
+txqplmn,204,student,"Because 9 times 8 is 72, so 90 times 8 is 720.",00:27:12
+txqplmn,205,tutor,"That is great reasoning. One more challenge. Complete the fact family for these numbers: 70, 8, 560.",00:27:20
+txqplmn,206,student,70 times 8 equals 560. 8 times 70 equals 560. 560 divided by 8 equals 70. And 560 divided by 70 equals 8.,00:27:28
+txqplmn,207,tutor,"Perfect, all four number sentences correct. You have really understood fact families today.",00:27:36
+txqplmn,208,student,Thank you.,00:27:44
+txqplmn,209,tutor,Do you have any questions before we finish?,00:27:52
+txqplmn,210,student,"No, I think I understand now.",00:28:00
+txqplmn,211,tutor,Brilliant work today. We will carry on with more multiplication and division practice next time. See you then.,00:28:08
+txqplmn,212,student,Bye.,00:28:16
+txqplmn,213,tutor,"Hello, are you ready to get started today?",00:28:24
+txqplmn,214,student,"Yes, I think so.",00:28:32
+txqplmn,215,tutor,Great. So today we are going to look at fact families and how they help us multiply and divide.,00:28:40
