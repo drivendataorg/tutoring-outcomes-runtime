@@ -37,7 +37,7 @@ dependencies = [
     "ninja",
     "numba",
     "numpy",
-    "opencv-python",
+    "opencv-python-headless",
     "packaging",
     "pandas",
     "peft",
