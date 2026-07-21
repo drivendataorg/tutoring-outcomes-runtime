@@ -93,6 +93,19 @@ def test_spacy():
         db.add(doc)
 
 
+def test_ms_swift_lora():
+    """Test that ms-swift can apply a LoRA tuner to a model."""
+    import torch.nn as nn
+    from swift.tuners import LoRAConfig, Swift
+
+    model = nn.Sequential(nn.Linear(10, 10), nn.Linear(10, 2))
+    lora_config = LoRAConfig(target_modules=["0"], r=4)
+    tuned_model = Swift.prepare_model(model, lora_config)
+
+    lora_params = [name for name, _ in tuned_model.named_parameters() if "lora" in name.lower()]
+    assert lora_params, "LoRA parameters should be present after applying the tuner"
+
+
 @pytest.mark.skipif(not GPU_AVAILABLE, reason="No GPU available")
 def test_vllm_imports():
     """Test that vLLM core classes can be imported (requires GPU)."""

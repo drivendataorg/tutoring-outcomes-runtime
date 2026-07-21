@@ -41,7 +41,7 @@ dependencies = [
     "opencv-python-headless",
     "packaging",
     "pandas",
-    "peft",
+    "peft<0.19",
     "pillow",
     "polars",
     "psutil",
