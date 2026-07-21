@@ -100,4 +100,3 @@ def test_vllm_imports():
 
     assert LLM is not None
     assert SamplingParams is not None
-
