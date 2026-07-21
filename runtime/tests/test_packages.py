@@ -11,6 +11,7 @@ packages = [
     "langchain_community",
     "langchain",
     "loguru",
+    "swift",
     "numpy",
     "pandas",
     "peft",
@@ -99,3 +100,4 @@ def test_vllm_imports():
 
     assert LLM is not None
     assert SamplingParams is not None
+
