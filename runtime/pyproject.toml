@@ -14,7 +14,7 @@ dependencies = [
     "click",
     "cloudpickle",
     "cupy-cuda12x",
-    "datasets==4.8.4",
+    "datasets",
     "dill",
     "diskcache",
     "einops",
@@ -34,7 +34,7 @@ dependencies = [
     "lightgbm",
     "loguru",
     "more-itertools",
-    "ms-swift==4.4.1",
+    "ms-swift",
     "ninja",
     "numba",
     "numpy",
@@ -106,3 +106,4 @@ vllm = [
 
 [project.optional-dependencies]
 test = ["pytest>=9.0"]
+
