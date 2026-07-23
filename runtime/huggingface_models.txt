@@ -1,0 +1,6 @@
+# One Hugging Face model repo ID per line. Lines starting with # are comments.
+
+# Example:
+sentence-transformers/all-MiniLM-L6-v2
+
+# User requested:

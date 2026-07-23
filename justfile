@@ -148,6 +148,24 @@ update-lockfile *ARGS:
 check-lock:
     cd runtime && uv lock --check
 
+# Download Hugging Face model snapshots listed in runtime/huggingface_models.txt
+[group('development')]
+download-huggingface-models out_dir=".huggingface_models" *models:
+    uv run --with huggingface-hub python runtime/scripts/huggingface_models.py download \
+        --output "{{out_dir}}" {{models}}
+
+# Check that each HF model in the manifest exists and is downloadable (no full download)
+[group('development')]
+verify-huggingface-models:
+    uv run --with huggingface-hub python runtime/scripts/huggingface_models.py verify
+
+# Upload HF models to Azure one at a time (download → upload → delete) to bound disk use
+[group('development')]
+sync-huggingface-models account container out_dir=".huggingface_models":
+    uv run --with huggingface-hub --with azure-identity --with azure-storage-blob \
+        python runtime/scripts/huggingface_models.py sync \
+        "{{account}}" "{{container}}" --output "{{out_dir}}"
+
 # Pull the official container from Azure Container Registry
 [group('* test submission locally')]
 pull:

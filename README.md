@@ -36,6 +36,7 @@ Changes to the repository are documented in [CHANGELOG.md](./CHANGELOG.md).
 - [Code submission format](#code-submission-format)
 - [Runtime network access](#runtime-network-access)
 - [Smoke tests](#smoke-tests)
+- [Hugging Face models](#hugging-face-models)
 
 #### [3. Requesting changes to the official runtime](#requesting-changes-to-the-official-runtime)
 
@@ -167,6 +168,28 @@ In the real competition runtime, all internet access is blocked. By default, the
 ### Smoke tests
 
 When submitting on the platform, you will have the ability to submit "smoke tests". Smoke tests run on a small portion of the training set that is set up to emulate the test set in order to run quickly. They will not be considered for prize evaluation and are intended to let you test your code for correctness.
+
+### Hugging Face models
+
+To request a Hugging Face model in the official runtime:
+
+1. Add its repo ID to [`runtime/huggingface_models.txt`](./runtime/huggingface_models.txt), one per line:
+
+    ```txt
+    sentence-transformers/all-MiniLM-L6-v2
+    ```
+
+2. Open a pull request. When CI publishes the runtime, it downloads the listed models and uploads them to the mounted Hugging Face models storage container.
+
+3. Load the model from the mounted path in your submission:
+
+    ```python
+    from transformers import AutoModel, AutoTokenizer
+
+    model_path = "/code_execution/huggingface_models/sentence-transformers/all-MiniLM-L6-v2"
+    tokenizer = AutoTokenizer.from_pretrained(model_path, local_files_only=True)
+    model = AutoModel.from_pretrained(model_path, local_files_only=True)
+    ```
 
 ***
 
