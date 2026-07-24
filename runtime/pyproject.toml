@@ -74,6 +74,7 @@ dependencies = [
     "vllm",
     "xarray",
     "xformers",
+    "catboost",
 ]
 
 [tool.uv]
