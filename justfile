@@ -159,7 +159,7 @@ download-huggingface-models out_dir=".huggingface_models" *models:
 verify-huggingface-models:
     uv run --with huggingface-hub python runtime/scripts/huggingface_models.py verify
 
-# Upload HF models to Azure one at a time (download → upload → delete) to bound disk use
+# Upload new HF models to Azure one at a time (download → upload → delete); never overwrites
 [group('development')]
 sync-huggingface-models account container out_dir=".huggingface_models":
     uv run --with huggingface-hub --with azure-identity --with azure-storage-blob \

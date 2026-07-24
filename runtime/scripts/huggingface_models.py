@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Manage Hugging Face models listed in runtime/huggingface_models.txt.
 
-Model repo IDs are stable; versions are Hub git commit SHAs. Sync stores the
-SHA in ``{model_id}/.hf_revision`` and skips download/upload when it matches.
+Model repo IDs are stable; versions are Hub git commit SHAs. Sync uploads a
+model only when it is not yet in Azure (stores the SHA in
+``{model_id}/.hf_revision``). Existing Azure models are never overwritten so
+running pods keep a stable view; if the Hub revision drifts, sync logs a
+warning for a competition administrator to refresh manually when safe.
 
 Usage:
   huggingface_models.py download [--output DIR] [MODEL_ID ...]
@@ -22,6 +25,8 @@ MANIFEST = Path("runtime/huggingface_models.txt")
 REVISION_BLOB = ".hf_revision"
 DEFAULT_OUTPUT = Path(".huggingface_models")
 UPLOAD_MAX_CONCURRENCY = 8
+# Soft size check in verify only; sync still uploads larger models.
+SIZE_WARN_BYTES = 100 * 1024**3
 
 
 def read_models(manifest: Path = MANIFEST) -> list[str]:
@@ -92,7 +97,7 @@ def azure_revision(account: str, container: str, model_id: str) -> str | None:
 
 
 def azure_upload_model(local_dir: Path, account: str, container: str, model_id: str) -> None:
-    """Upload a local model directory to Azure with concurrent block uploads."""
+    """Upload a local model directory to Azure (never overwrites existing blobs)."""
     container_client = blob_service(account).get_container_client(container)
     files = [path for path in local_dir.rglob("*") if path.is_file()]
     print(f"Uploading {len(files)} files for {model_id} to Azure...", flush=True)
@@ -102,7 +107,7 @@ def azure_upload_model(local_dir: Path, account: str, container: str, model_id: 
             container_client.upload_blob(
                 name=blob_name,
                 data=handle,
-                overwrite=True,
+                overwrite=False,
                 max_concurrency=UPLOAD_MAX_CONCURRENCY,
             )
 
@@ -114,7 +119,19 @@ def append_step_summary(line: str) -> None:
             handle.write(line + "\n")
 
 
+def warn(message: str) -> None:
+    """Print a warning; use a GitHub Actions annotation when running in CI."""
+    print(f"WARNING: {message}", flush=True)
+    # Visible in the Actions UI without failing the job.
+    print(f"::warning::{message}", flush=True)
+    append_step_summary(f"- warning: {message}")
+
+
 def cmd_download(output: Path, model_ids: list[str] | None) -> None:
+    """Download models listed in the manifest or given by model_ids.
+
+    Only downloads models locally; does not upload them to Azure.
+    """
     models = model_ids or read_models()
     if not models:
         print(f"No Hugging Face models listed in {MANIFEST}.")
@@ -125,7 +142,10 @@ def cmd_download(output: Path, model_ids: list[str] | None) -> None:
 
 
 def cmd_verify() -> None:
-    """Confirm each manifest model exists on the Hub and is downloadable (no weight fetch)."""
+    """Confirm each manifest model exists on the Hub and is downloadable (no weight fetch).
+
+    Warns when a model's total Hub file size exceeds 100 GB, but does not fail.
+    """
     models = read_models()
     if not models:
         print(f"No Hugging Face models listed in {MANIFEST}.")
@@ -137,12 +157,22 @@ def cmd_verify() -> None:
         print(f"=== Verifying {model_id} is downloadable on the Hub ===", flush=True)
         revision = hub_revision(model_id)
         # dry_run resolves the repo/file list without fetching weights.
-        snapshot_download(repo_id=model_id, revision=revision, dry_run=True)
-        print(f"OK {model_id} @ {revision}", flush=True)
-        append_step_summary(f"- `{model_id}` @ `{revision}`: downloadable")
+        files = snapshot_download(repo_id=model_id, revision=revision, dry_run=True)
+        total_bytes = sum(getattr(f, "file_size", 0) or 0 for f in files)
+        size_gb = total_bytes / (1024**3)
+        print(f"OK {model_id} @ {revision} ({size_gb:.1f} GB across {len(files)} files)", flush=True)
+        append_step_summary(
+            f"- `{model_id}` @ `{revision}`: downloadable ({size_gb:.1f} GB, {len(files)} files)"
+        )
+        if total_bytes > SIZE_WARN_BYTES:
+            warn(
+                f"{model_id} is {size_gb:.1f} GB (> {SIZE_WARN_BYTES // (1024**3)} GB). "
+                f"There is no hard cap, but confirm this size is intentional before syncing to Azure."
+            )
 
 
 def cmd_sync(account: str, container: str, output: Path) -> None:
+    """Upload models listed in the manifest to Azure when missing; never overwrite."""
     models = read_models()
     if not models:
         print(f"No Hugging Face models listed in {MANIFEST}.")
@@ -156,8 +186,19 @@ def cmd_sync(account: str, container: str, output: Path) -> None:
 
         remote_sha = azure_revision(account, container, model_id)
         print(f"Azure revision: {remote_sha or '(none)'}", flush=True)
-        if remote_sha == desired_sha:
-            print(f"Skipping {model_id}; Azure already has this Hub revision.", flush=True)
+        if remote_sha is not None:
+            if remote_sha == desired_sha:
+                print(
+                    f"Skipping {model_id}; Azure already has this Hub revision.",
+                    flush=True,
+                )
+            else:
+                warn(
+                    f"{model_id} is already in Azure at revision {remote_sha}, but the "
+                    f"Hub now has {desired_sha}. Sync will not overwrite Azure blobs "
+                    f"while pods may be reading them. Contact a competition "
+                    f"administrator to refresh the model manually when no pods are running."
+                )
             continue
 
         destination = download_model(output, model_id, revision=desired_sha)
@@ -186,7 +227,10 @@ def main(argv: list[str] | None = None) -> None:
 
     sub.add_parser("verify", help="Check manifest models exist and are downloadable.")
 
-    sync = sub.add_parser("sync", help="Upload models to Azure, skipping unchanged revisions.")
+    sync = sub.add_parser(
+        "sync",
+        help="Upload new models to Azure; never overwrite existing ones.",
+    )
     sync.add_argument("account", help="Azure storage account name.")
     sync.add_argument("container", help="Azure blob container name.")
     sync.add_argument(

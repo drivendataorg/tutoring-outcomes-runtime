@@ -179,7 +179,7 @@ To request a Hugging Face model in the official runtime:
     sentence-transformers/all-MiniLM-L6-v2
     ```
 
-2. Open a pull request. When CI publishes the runtime, it downloads the listed models and uploads them to the mounted Hugging Face models storage container.
+2. Open a pull request. When CI publishes the runtime, it downloads newly listed models and uploads them to the mounted Hugging Face models storage container. Models already in Azure are never overwritten (so running jobs keep a stable view); if the Hub revision later changes, sync logs a warning and a competition administrator can refresh the model manually when no pods are running.
 
 3. Load the model from the mounted path in your submission:
 
