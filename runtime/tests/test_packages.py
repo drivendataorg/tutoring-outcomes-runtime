@@ -23,6 +23,8 @@ packages = [
     "torch",
     "transformers",
     "vllm",
+    "catboost",
+    "xgboost",
 ]
 
 
