@@ -4,3 +4,5 @@
 sentence-transformers/all-MiniLM-L6-v2
 
 # User requested:
+Qwen/Qwen3-14B-AWQ
+Qwen/Qwen3-8B
