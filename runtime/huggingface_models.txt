@@ -5,6 +5,7 @@ sentence-transformers/all-MiniLM-L6-v2
 
 # User requested:
 Qwen/Qwen3-14B-AWQ
+Qwen/Qwen3-8B
 Qwen/Qwen2.5-14B-Instruct
 mistralai/Mistral-Small-24B-Instruct-2501
 answerdotai/ModernBERT-large
