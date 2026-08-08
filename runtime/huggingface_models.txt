@@ -12,3 +12,4 @@ answerdotai/ModernBERT-large
 BAAI/bge-large-en-v1.5
 cyankiwi/gemma-4-31B-it-AWQ-4bit
 microsoft/phi-4
+saroyehun/Talkmove-bert
