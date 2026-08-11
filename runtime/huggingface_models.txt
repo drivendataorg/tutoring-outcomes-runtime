@@ -7,6 +7,7 @@ sentence-transformers/all-MiniLM-L6-v2
 Qwen/Qwen3-14B-AWQ
 Qwen/Qwen3-8B
 Qwen/Qwen2.5-14B-Instruct
+Qwen/Qwen3-Embedding-4B
 mistralai/Mistral-Small-24B-Instruct-2501
 answerdotai/ModernBERT-large
 BAAI/bge-large-en-v1.5
