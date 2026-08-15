@@ -76,6 +76,7 @@ dependencies = [
     "xformers",
     "catboost",
     "xgboost",
+    "tensorflow",
 ]
 
 [tool.uv]
