@@ -76,7 +76,7 @@ dependencies = [
     "xformers",
     "catboost",
     "xgboost",
-    "tensorflow",
+    "tensorflow[and-cuda]==2.16.1",
 ]
 
 [tool.uv]
