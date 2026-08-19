@@ -25,6 +25,7 @@ packages = [
     "vllm",
     "catboost",
     "xgboost",
+    "tensorflow",
 ]
 
 
@@ -115,3 +116,22 @@ def test_vllm_imports():
 
     assert LLM is not None
     assert SamplingParams is not None
+
+
+@pytest.mark.skipif(not GPU_AVAILABLE, reason="No GPU available")
+def test_tensorflow_gpu_available():
+    """Test whether tensorflow is using the available GPU"""
+    
+    import tensorflow as tf
+    
+    print('Version:', tf.__version__)
+    print('Num GPUs Available: ', len(tf.config.list_physical_devices('GPU')))
+    print('GPU Details:', tf.config.list_physical_devices('GPU'))
+    
+    
+    tf.debugging.set_log_device_placement(True)
+    
+    a = tf.constant([[1.0, 2.0], [3.0, 4.0]])
+    b = tf.constant([[1.0, 1.0], [0.1, 0.2]])
+    c = tf.matmul(a, b)
+    assert 'GPU' in c.device
