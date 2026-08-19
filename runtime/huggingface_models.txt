@@ -11,6 +11,7 @@ Qwen/Qwen3-Embedding-4B
 mistralai/Mistral-Small-24B-Instruct-2501
 answerdotai/ModernBERT-large
 BAAI/bge-large-en-v1.5
+cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit
 cyankiwi/gemma-4-31B-it-AWQ-4bit
 microsoft/phi-4
 saroyehun/Talkmove-bert
