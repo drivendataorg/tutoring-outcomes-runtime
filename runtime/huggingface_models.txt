@@ -15,3 +15,4 @@ cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit
 cyankiwi/gemma-4-31B-it-AWQ-4bit
 microsoft/phi-4
 saroyehun/Talkmove-bert
+ornith-ai/Ornith-1.5-35B-A3B-FP8
